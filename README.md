@@ -1,9 +1,12 @@
 # Portafolio
 Proyecto de maquetado landing page de portafolio
 
-index.html ejercicio inicial
-style.css
++ index.html ejercicio inicial
 
-remake.html ejercicio aplicando pautas que se investigaron
-styleRemake.css
-index.js
++ style.css
+-------------------------------------------------------------
++ remake.html ejercicio aplicando pautas que se investigaron
+
++ styleRemake.css
+
++ index.js
