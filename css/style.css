@@ -660,9 +660,9 @@ hr{
     }
 
     .prices {
-        display: none;
-        /* grid-template-columns: repeat(1, 1fr);
-        justify-content: center; */
+        /* display: none; */
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
     }
 
     .work-card {

@@ -5,135 +5,391 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styleRemake.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8915b10d21.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
     <title>Portafolio</title>
 </head>
 <body>
-    <div class="grid-container-padding">
-        <div class="col-6">
-            <div class="row ">
-                <div class="col-12">
-                    <span class="txt-400 txt-400-24">HI!</span>
-                </div>
-                <div class="col-12"><span class="txt-600 txt-600-40 txt-sm-600-32">I’m Mohammad Reza.</span></div>
-                <div class="col-12"><span class="txt-600 txt-600-40 txt-sm-600-32">a Frontend developer.</span></div>
-                <!-- <br>
-                <div class="col-12" id="txt-400" style="font-size: 18px; line-height: 30px;"> Frontend developer based in tehran, Iran.</div>
-                <div class="col-9" id="txt-400" style="font-size: 18px; line-height: 30px;">I am coding with a clean and beautiful problem solving in mind.</div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <div class="col-12">
-                    <div class="row" style="align-items: center;">
-                        <div class="col-3 follow" id="txt-400" style="font-size: 18px; color: #8e8e8e;">Follow me: </div>
-                        <div class="col-1"> <button class="btn-round btn-round-blue"><i class="fab fa-facebook-f"></i></button> </div>
-                        <div class="col-1"> <button class="btn-round btn-round-red"><i class="fab fa-twitter"></i></i></button> </div>
-                        <div class="col-1"> <button class="btn-round btn-round-light-blue"><i class="fab fa-instagram"></i></button> </div>
-                        <div class="col-1"> <button class="btn-round btn-round-orange"><i class="fab fa-telegram-plane"></i></button> </div>
+    <header class="header">
+        <nav class="navigate">
+            <a href="#" class="logo txt-500 txt-500-18">Logo</a>
+            <div class="nav-toggle"><i class="fas fa-bars"></i></div>
+            <ul class="nav-menu nav-menu_no_visible">
+                <li><a class="nav-item nav-item-active" href="#presentation"><i class="fas fa-home"></i><span class="nav-item-name txt-500 txt-500-18 txt-sm-20">Presentation</span></a></li>
+                <li><a class="nav-item" href="#achievements"><i class="fas fa-user"></i><span class="nav-item-name txt-500 txt-500-18 txt-sm-20">Achievements</span></a></li>
+                <li><a class="nav-item" href="#portfolio"><i class="fas fa-suitcase"></i><span class="nav-item-name txt-500 txt-500-18 txt-sm-20">Portfolio</span></a></li>
+                <li><a class="nav-item" href="#plans"><i class="fas fa-file-alt"></i><span class="nav-item-name txt-500 txt-500-18 txt-sm-20">Plans</span></a></li>
+                <li><a class="nav-item" href="#working-together"><i class="fas fa-comment-dots"></i><span class="nav-item-name txt-500 txt-500-18 txt-sm-20">Work Together</span></a></li>
+            </ul>
+            <div class="flags">
+                <img src="./images/uk.svg" alt="UK">
+                <img src="./images/iran.svg" alt="IRÁN">
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="grid-container-padding" id="presentation">
+            <div class="row-profile">
+                <div class="col-1">
+                    <div class="row ">
+                        <div class="col-12">
+                            <span class="txt-400 txt-400-24">HI!</span>
+                        </div>
+                        <header class="col-12">
+                            <h1 class="txt-600">I’m Mohammad Reza.</h1>
+                            <h1 class="txt-600">a Frontend developer.</h1>
+                        </header>
+                        <br>
+                        <div class="col-12"><span class="txt-400 txt-400-18">Frontend developer based in tehran, Iran.</span></div>
+                        <div class="col-9 col-sm-12"><span class="txt-400 txt-400-18">I am coding with a clean and beautiful problem solving in mind.</span></div>
+                        <br>
+                        <nav class="col-12">
+                            <ul class="row social">
+                                <li class="col-3 follow"><span class="txt-400 txt-400-18">Follow me: </span></li>
+                                <li class="col-1 col-sm-3"><button class="btn-round btn-round-blue"><i class="fab fa-facebook-f"></i></button></li>
+                                <li class="col-1 col-sm-3"><button class="btn-round btn-round-red"><i class="fab fa-twitter"></i></button></li>
+                                <li class="col-1 col-sm-3"><button class="btn-round btn-round-light-blue"><i class="fab fa-instagram"></i></button></li>
+                                <li class="col-1 col-sm-3"><button class="btn-round btn-round-orange"><i class="fab fa-telegram-plane"></i></button></li>
+                            </ul>
+                        </nav>
+                        <br>
+                        <br>
+                        <footer class="col-12">
+                            <div class="row">
+                                <div class="col-6"><button class="btn btn-n btn-red txt 500">Send Request</button> </div>
+                                <div class="col-6"><button class="btn btn-n-outline txt 500">Download CV</button> </div>
+                            </div>
+                        </footer>
                     </div>
                 </div>
-                <br>
-                <br>
-                <div class="col-12">
-                    <div class="row">
-                        <div class="col-6" id="txt-500"> <button class="btn btn-l btn-red">Send Request</button> </div>
-                        <div class="col-6" id="txt-500"> <button class="btn btn-l-outline">Download CV</button> </div>
+
+                <div class="col-1">
+                    <img class="profile-pic" src="./images/photo.png" alt="Mohammad Reza">
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    
+    <section class="grid-container-padding" id="achievements">
+        <div class="row card">
+            <div class="col-5 col-sm-12 img">
+                <img class="img-project" src="./images/zoomed.png" alt="project">
+            </div>
+            <div class="col-7 col-sm-12 content">
+                <div class="row">
+                    <div class="col-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 detail"><span class="txt-600 txt-600-72 txt-sm-48">120+</span></div>
+                            <div class="col-12 col-sm-12"><span class="txt-400 txt-400-24">Completed Projects</span></div>
+                        </div>
                     </div>
-                </div> -->
+                    <div class="col-6 col-sm-12">
+                        <div class="row">
+                            <div class="col-12 col-sm-12 detail">
+                                <div class="stars-outer">
+                                    <div class="stars-inner"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-12"><span class="txt-400 txt-400-24">Positive Review’s</span></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12"><span class="txt-600 txt-600-48 txt-sm-32">Glad to Help You!</span></div>
+                    <div class="col-10 col-sm-12">
+                        <span class="txt-400 txt-400-24 txt-sm-20">
+                            As a web developer, I'm very keen on learning new and pioneering technologies, programming languages, and development techniques.
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- <div class="col-6 col-sm-12">
-            <div class="photo"></div>
-        </div> -->
-    </div>
-    <div class="grid-container-padding">
-        <div class="card">
-            
-        </div>
-    </div>
-    <div class="grid-container-padding">
-        <div class="col-12 tittle-center"><span class="txt-600 txt-600-40 txt-sm-600-32">Why Hire Me?</span></div>
+    </section>
+
+    <section class="grid-container-padding" id="skills">
+        <div class="col-12 tittle-center"><h1 class="txt-600">Why Hire Me?</h1></div>
         <div class="col-12">
             <div class="row skills">
                 <div class="col-3">
-                    <div class="row skill">
+                    <article class="row skill">
                         <div class="col-12">
                             <div class="pic-container">
-                                <div class="pic" style="background: url(./images/communication.png); "></div>
+                                <img class="pic" src="./images/communication.png" alt="Communicative"/>
                             </div>
                         </div>
-                        <div class="col-12 tittle"><span class="txt-500 txt-500-24">Communicative</span></div>
-                        <div class="col-12 description"><span class="txt-400 txt-400-18">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</span></div>
-                    </div>
+                        <div class="col-12 tittle"><h2 class="txt-500">Communicative</h2></div>
+                        <div class="col-12 description"><p class="txt-400 txt-400-18">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p></div>
+                    </article>
                 </div>
                 <div class="col-3">
-                    <div class="row skill">
+                    <article class="row skill">
                         <div class="col-12">
                             <div class="pic-container">
-                                <div class="pic" style="background-image: url(./images/Professional.png);"></div>
+                                <img class="pic" src="./images/Professional.png" alt="Professional"/>
                             </div>
                         </div>
-                        <div class="col-12 tittle"><span class="txt-500 txt-500-24">Professional</span></div>
-                        <div class="col-12 description"><span class="txt-400 txt-400-18">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</span>.</div>
-                    </div>
+                        <div class="col-12 tittle"><h2 class="txt-500">Professional</h2></div>
+                        <div class="col-12 description"><p class="txt-400 txt-400-18">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p></div>
+                    </article>
                 </div>
                 <div class="col-3">
-                    <div class="row skill">
+                    <article class="row skill">
                         <div class="col-12">
                             <div class="pic-container">
-                                <div class="pic" style="background-image: url(./images/Collaborative.png);"></div>
+                                <img class="pic" src="./images/Collaborative.png" alt="Collaborative"/>
                             </div>
                         </div>
-                        <div class="col-12 tittle"><span class="txt-500 txt-500-24">Collaborative</span></div>
-                        <div class="col-12 description"><span class="txt-400 txt-400-18">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</span>.</div>
-                    </div>
+                        <div class="col-12 tittle"><h2 class="txt-500">Collaborative</h2></div>
+                        <div class="col-12 description"><p class="txt-400 txt-400-18">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p></div>
+                    </article>
                 </div>
                 <div class="col-3">
-                    <div class="row skill">
+                    <article class="row skill">
                         <div class="col-12">
                             <div class="pic-container">
-                                <div class="pic" style="background-image: url(./images/favorite.png);"></div>
+                                <img class="pic" src="./images/favorite.png" alt="Client’s Favourite"/>
                             </div>
                         </div>
-                        <div class="col-12 tittle"><span class="txt-500 txt-500-24">Client’s Favourite</span></div>
-                        <div class="col-12 description"><span class="txt-400 txt-400-18">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</span>.</div>
-                    </div>
+                        <div class="col-12 tittle"><h2 class="txt-500">Client’s Favourite</h2></div>
+                        <div class="col-12 description"><p class="txt-400 txt-400-18">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p></div>
+                    </article>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="grid-container-padding">
-        <div class="row">
-            <div class="col-10"><span class="tittle-left txt-600 txt-600-48">Portfolio</span></div>
-            <div class="col-2"><span class="see-more txt-400 txt-400-20">See More</span><i class="fas fa-long-arrow-alt-right"></i></div>
-            <div class="col-12">
-                <div class="row-portfolio">
-                    <div class="item" style="background-image: url(./images/Image.png);"></div>
-                    <div class="item" style="background-image: url(./images/Image2.png);"></div>
-                    <div class="item" style="background-image: url(./images/Image3.png);"></div>
-                    <div class="item" style="background-image: url(./images/Image4.png);"></div>
-                    <div class="item" style="background-image: url(./images/Image5.png);"></div>
-                    <div class="item" style="background-image: url(./images/Image6.png);"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section class="grid-container" id="clients" >
-
     </section>
-    <div class="grid-container-padding">
 
-    </div>
-    <div class="grid-container-padding">
+    <section class="grid-container-padding row" id="portfolio">
+        <div class="col-10 col-sm-12"><h1 class="tittle-left txt-600">Portfolio</h1></div>
+        <div class="col-2 col-sm-12 see-more "><span class="txt-400 txt-400-20">See More</span><i class="fas fa-long-arrow-alt-right"></i></div>
+        <div class="col-12 items-portfolio">
+            <div class="row-portfolio">
+                <img class="item" src="./images/Image.png" alt="Landing page"/>
+                <img class="item" src="./images/Image2.png" alt="Landing page"/>
+                <img class="item" src="./images/Image3.png" alt="Landing page"/>
+                <img class="item" src="./images/Image4.png" alt="Landing page"/>
+                <img class="item" src="./images/Image5.png" alt="Landing page"/>
+                <img class="item" src="./images/Image6.png" alt="Landing page"/>
+            </div>
+        </div>
+    </section>
 
-    </div>
-    <div class="grid-container-padding">
+    <section class="grid-container" id="clients" >
+        <div class="col-12"><h1 class="tittle-center-w txt-600">I’m Loved By Users And Clients Worldwide</h1></div>
+        <div class="col-12"><h1 class="tittle-center-w txt-600">I’m Loved By Users And Clients</h1></div>
+            
+        <div class="col-12">
+            <div class="row-clients">
+                <article class="col-2 client-card">
+                    <footer class="row">
+                        <div class="content">
+                            <p class="txt-400 txt-400-24 txt-sm-14">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+                        </div>
+                        <img src="./images/user1.png" alt="user 1" class="client-pic">
+                        <div class="client-name"><span class="txt-600 txt-600-16">Ronald Richards</span></div>
+                        <div class="client-rol"><span class=" rol txt-400 txt-400-14">UI/UX Designer</span></div>
+                        <div class="number-rate"><span class="txt-600 txt-600-16">4.5</span></div>
+                        <div class="star-rate"> 
+                            <div class="client-stars-outer">
+                            </div>
+                        </div>
+                    </footer>
+                </article>
 
-    </div>
-    <div class="grid-container">
+                <article class="col-2 client-card">
+                    <footer class="row">
+                        <div class="content">
+                            <p class="txt-400 txt-400-24 txt-sm-14">It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
+                        </div>
+                        <img src="./images/user2.png" alt="user 1" class="client-pic">
+                        <div class="client-name"><span class="txt-600 txt-600-16">Taylor Swift</span></div>
+                        <div class="client-rol"><span class=" rol txt-400 txt-400-14">UI/UX Designer</span></div>
+                        <div class="number-rate"><span class="txt-600 txt-600-16">4.5</span></div>
+                        <div class="star-rate"> 
+                            <div class="client-stars-outer">
+                            </div>
+                        </div>
+                    </footer>
+                </article>
 
+                <article class="col-2 client-card">
+                    <footer class="row">
+                        <div class="content">
+                            <p class="txt-400 txt-400-24 txt-sm-14">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+                        </div>
+                        <img src="./images/user1.png" alt="user 1" class="client-pic">
+                        <div class="client-name"><span class="txt-600 txt-600-16">Ronald Richards</span></div>
+                        <div class="client-rol"><span class=" rol txt-400 txt-400-14">UI/UX Designer</span></div>
+                        <div class="number-rate"><span class="txt-600 txt-600-16">4.5</span></div>
+                        <div class="star-rate"> 
+                            <div class="client-stars-outer">
+                            </div>
+                        </div>
+                    </footer>
+                </article>
+
+                <article class="col-2 client-card">
+                    <footer class="row">
+                        <div class="content">
+                            <p class="txt-400 txt-400-24 txt-sm-14">It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
+                        </div>
+                        <img src="./images/user2.png" alt="user 1" class="client-pic">
+                        <div class="client-name"><span class="txt-600 txt-600-16">Taylor Swift</span></div>
+                        <div class="client-rol"><span class=" rol txt-400 txt-400-14">UI/UX Designer</span></div>
+                        <div class="number-rate"><span class="txt-600 txt-600-16">4.5</span></div>
+                        <div class="star-rate"> 
+                            <div class="client-stars-outer">
+                            </div>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+        <div class="col-6">
+                
+        </div>
+        <div class="col-6">
+            
+        </div>
+    </section>
+
+    <section class="grid-container-padding row" id="plans">
+        <div class="col-12 tittle-center"><h1 class="txt-600">Price Plans</h1></div>
+        <div class="col-12">
+            <div class="row-plans">
+                <article class="plan-card">
+                    <header><h2 class="txt-600">Silver</h2></header>
+                    <div class="price">
+                        <span class="txt-800 txt-800-32">$1.00</span> <span class="txt-400 txt-400-15 hour">/Hour</span>
+                    </div>
+                    <div class="content">
+                        <span class="check"><i class="fas fa-check"></i></span><span class="include txt-500 txt-500-14"> &nbsp; UI Design</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span><span class="include txt-500 txt-500-14"> &nbsp; Web development</span>
+                        <hr>
+                        <span class="times"><i class="fas fa-times"></i></span><span class="not-include txt-400 txt-400-14"> &nbsp; logo design</span>
+                        <hr>
+                        <span class="times"><i class="fas fa-times"></i></span><span class="not-include txt-400 txt-400-14"> &nbsp; seo optimization</span>
+                        <hr>
+                        <span class="times"><i class="fas fa-times"></i></span><span class="not-include txt-400 txt-400-14"> &nbsp; wordPress integration</span>
+                        <hr>
+                        <span class="times"><i class="fas fa-times"></i></span><span class="not-include txt-400 txt-400-14"> &nbsp; 5 Websites</span>
+                        <hr>
+                        <span class="times"><i class="fas fa-times"></i></span><span class="not-include txt-400 txt-400-14"> &nbsp; unlimited user</span>
+                        <hr>
+                        <span class="times"><i class="fas fa-times"></i></span><span class="not-include txt-400 txt-400-14"> &nbsp; 20 GB bandwith</span>
+                    </div>
+                </article>
+                <article class="plan-card">
+                    <header><h2 class="txt-600">Gold</h2></header>
+                    <div class="price">
+                        <span class="txt-800 txt-800-32">$50.00</span> <span class="txt-400 txt-400-15 hour">/Hour</span>
+                    </div>
+                    <div class="content">
+                        <span class="check"><i class="fas fa-check"></i></span><span class="include txt-500 txt-500-14"> &nbsp; UI Design</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span><span class="include txt-500 txt-500-14"> &nbsp; Web development</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span><span class="include txt-500 txt-500-14"> &nbsp; logo design</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span><span class="include txt-500 txt-500-14"> &nbsp; seo optimization</span>
+                        <hr>
+                        <span class="times"><i class="fas fa-times"></i></span><span class="not-include txt-400 txt-400-14"> &nbsp; wordPress integration</span>
+                        <hr>
+                        <span class="times"><i class="fas fa-times"></i></span><span class="not-include txt-400 txt-400-14"> &nbsp; 5 Websites</span>
+                        <hr>
+                        <span class="times"><i class="fas fa-times"></i></span><span class="not-include txt-400 txt-400-14"> &nbsp; unlimited user</span>
+                        <hr>
+                        <span class="times"><i class="fas fa-times"></i></span><span class="not-include txt-400 txt-400-14"> &nbsp; 20 GB bandwith</span>
+                    </div>
+                </article>
+                <article class="plan-card">
+                    <header><h2 class="txt-600">Diamond</h2></header>
+                    <div class="price">
+                        <span class="txt-800 txt-800-32">$80.00</span> <span class="txt-400 txt-400-15 hour">/Hour</span>
+                    </div>
+                    <div class="content">
+                        <span class="check"><i class="fas fa-check"></i></span><span class="include txt-500 txt-500-14"> &nbsp; UI Design</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span><span class="include txt-500 txt-500-14"> &nbsp; Web development</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span><span class="include txt-500 txt-500-14"> &nbsp; logo design</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span><span class="include txt-500 txt-500-14"> &nbsp; seo optimization</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span></span><span class="include txt-500 txt-500-14"> &nbsp; wordPress integration</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span></span><span class="include txt-500 txt-500-14"> &nbsp; 5 Websites</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span></span><span class="include txt-500 txt-500-14"> &nbsp; unlimited user</span>
+                        <hr>
+                        <span class="check"><i class="fas fa-check"></i></span></span><span class="include txt-500 txt-500-14"> &nbsp; 20 GB bandwith</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <section class="grid-container-padding" id="working-together">
+        <div class="row work-card">
+            <div class="col-5 col-sm-12"><span class="txt-600 txt-600-36 txt-sm-32">Interested working with me?</span></div>
+            <div class="col-7 col-sm-12"><button class="btn btn-g btn-white txt-600">Email me</button></div>
+        </div>
+    </section>
+
+    <div class="grid-container-padding row" id="blog">
+        <div class="col-10 col-sm-12"><h1 class="tittle-left txt-600">Blog</h1></div>
+        <div class="col-2 col-sm-12 see-more "><span class="txt-400 txt-400-20">See More</span><i class="fas fa-long-arrow-alt-right"></i></div>
+        <div class="col-12">
+            <div class="row-blog">
+                <div class="col-1 blog-card">
+                    <img class="image-post" src="./images/blog1.png" alt="Web templates">
+                    <div class="content">
+                        <span class="tittle-post txt-500 txt-500-16">How to make web tempates</span>
+                        <span class="resume-post txt-500 txt-500-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</span>
+                    </div>
+                    <button class="btn-round-blog"><i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+                <div class="col-1 blog-card">
+                    <img class="image-post" src="./images/blog2.png" alt="Web templates">
+                    <div class="content">
+                        <span class="tittle-post txt-500 txt-500-16">How to make web tempates</span>
+                        <span class="resume-post txt-500 txt-500-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</span>
+                    </div>
+                    <button class="btn-round-blog"><i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+                <div class="col-1 blog-card">
+                    <img class="image-post" src="./images/blog3.png" alt="Web templates">
+                    <div class="content">
+                        <span class="tittle-post txt-500 txt-500-16">How to make web tempates</span>
+                        <span class="resume-post txt-500 txt-500-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</span>
+                    </div>
+                    <button class="btn-round-blog"><i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+                <div class="col-1 blog-card">
+                    <img class="image-post" src="./images/blog1.png" alt="Web templates">
+                    <div class="content">
+                        <span class="tittle-post txt-500 txt-500-16">How to make web tempates</span>
+                        <span class="resume-post txt-500 txt-500-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</span>
+                    </div>
+                    <button class="btn-round-blog"><i class="fas fa-long-arrow-alt-right"></i></button>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <footer class="grid-container-footer">
+        <div class="row footer">
+            <div class="col-4 col-sm-12">
+                <span><i class="far fa-envelope"></i></span><span class="txt-400 txt-400-18"> &nbsp; mmr315@gmail.com</span>
+            </div>
+            <div class="col-4 col-sm-12">
+                <span class="txt-500 txt-500-18">© Copyright 2021 | mmrz315</span>
+            </div>
+            <div class="col-4 col-sm-12">
+                <span class="txt-400-18"><i class="fab fa-instagram"></i><span><span>&nbsp; &nbsp;<i class="fab fa-telegram-plane"></i></span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
