@@ -1,305 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8915b10d21.js" crossorigin="anonymous"></script>
-    <title>Portfolio</title>
+    <title>Portafolio</title>
 </head>
-<body >
-    <div class="navigate">
-        <div class="logo">logo</div>
-		<ul>
-			<li><i class="fas fa-home"></i></li>
-			<li><i class="fas fa-user"></i></li>
-			<li><i class="fas fa-suitcase"></i></li>
-			<li><i class="far fa-file-alt"></i></li>
-			<li><i class="far fa-comment-dots"></i></li>
-		</ul>
-	</div>
-    <div class="grid-container">
-        <!-- BASIC INFO -->
-        <div class="row" style="margin-bottom: 120px;">
-            <div class="col-6 col-sm-12">
-                <div class="row ">
-                    <div class="col-12 col-sm-12">
-                        <p id="txt-400" style="font-size: 24px">HI!</p>
-                    </div>
-                    <div class="col-12 col-sm-12" id="txt-600" style="font-size: 40px"> I’m Mohammad Reza.</div>
-                    <div class="col-12 col-sm-12" id="txt-600" style="font-size: 40px"> a Frontend developer.</div>
-                    <br>
-                    <div class="col-12 col-sm-12" id="txt-400" style="font-size: 18px; line-height: 30px;"> Frontend developer based in tehran, Iran.</div>
-                    <div class="col-9 col-sm-12" id="txt-400" style="font-size: 18px; line-height: 30px;">I am coding with a clean and beautiful problem solving in mind.</div>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <div class="col-12 col-sm-12">
-                        <div class="row" style="align-items: center;">
-                            <div class="col-3 follow" id="txt-400" style="font-size: 18px; color: #8e8e8e;">Follow me: </div>
-                            <div class="col-1"> <button class="btn-round btn-round-blue"><i class="fab fa-facebook-f"></i></button> </div>
-                            <div class="col-1"> <button class="btn-round btn-round-red"><i class="fab fa-twitter"></i></i></button> </div>
-                            <div class="col-1"> <button class="btn-round btn-round-light-blue"><i class="fab fa-instagram"></i></button> </div>
-                            <div class="col-1"> <button class="btn-round btn-round-orange"><i class="fab fa-telegram-plane"></i></button> </div>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-                    <div class="col-12 col-sm-12">
-                        <div class="row">
-                            <div class="col-6" id="txt-500"> <button class="btn btn-l btn-red">Send Request</button> </div>
-                            <div class="col-6" id="txt-500"> <button class="btn btn-l-outline">Download CV</button> </div>
-                        </div>
+
+<body>
+    <!-- Cabecera -->
+    <header class="header">
+        <nav class="header__navigate">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="#presentation" class="header__link">
+                        <i class="fas fa-home" aria-hidden="true"></i>
+                        <p>Presentation</p>
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="#achievements" class="header__link">
+                        <i class="fas fa-user" aria-hidden="true"></i>
+                        <p>Achievements</p>
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="#portfolio" class="header__link">
+                        <i class="fas fa-suitcase" aria-hidden="true"></i>
+                        <p>Portfolio</p>
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="#plans" class="header__link">
+                        <i class="fas fa-file-alt" aria-hidden="true"></i>
+                        <p>Plans</p>
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="#working-together" class="header__link">
+                        <i class="fas fa-comment-dots" aria-hidden="true"></i>
+                        <p>Work Together</p>
+                    </a>
+                </li>
+            </ul>
+            <div class="header__flags">
+                <img src="./images/uk.svg" alt="Bandera de Reino Unido">
+                <img src="./images/iran.svg" alt="Bandera de Iran">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Presentación -->
+        <section class="presentation">
+            <div class="container--padding">
+                <div>
+                    <p>HI!</p>
+                    <h1>I’m Mohammad Reza. a Frontend developer.</h1>
+                    <p>Frontend developer based in tehran, Iran. I am coding with a clean and beautiful problem solving
+                        in mind.</p>
+                    <nav class="presentation__navigate">
+                        <ul class="presentation__list">
+                            <li class="presentation__follow">
+                                <p>Follow me: </p>
+                            </li>
+                            <li class="presentation__item">
+                                <a class="presentation__link">
+                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="presentation__item">
+                                <a class="presentation__link">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="presentation__item">
+                                <a class="presentation__link">
+                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                            <li class="presentation__item">
+                                <a class="presentation__link">
+                                    <i class="fab fa-telegram-plane" aria-hidden="true"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="presentation__actions">
+                        <a class="presentation__link">Send Request</a>
+                        <a class="presentation__link">Send Request</a>
                     </div>
                 </div>
+                <div class="presentation__profile">
+                    <img class="presentation__pic" src="./images/photo.png" alt="face photo of Mohammad Reza">
+                </div>
             </div>
-            <div class="col-6 col-sm-12">
-                <div class="photo"></div>
-            </div>
-        </div>
-        <br>
-        <!-- INFO -->
-        <div class="row card" style="margin-bottom: 120px;">
-            <div class="col-5">
-                <div class="photo2"></div>
-            </div>
-            <div class="col-7">
-                <div class="row">
-                    <div class="col-6">
-                        <div class="row">
-                            <div class="col-12" id="txt-600" style="font-size: 72px;">120+</div>
-                            <div class="col-12" id="txt-400" style="font-size: 24px">Completed Projects</div>
+        </section>
+        <!-- Logros -->
+        <section class="achievements">
+            <div class="container--padding">
+                <div class="card">
+                    <aside class="achievements__figure">
+                        <img class="img-project" src="./images/zoomed.png" alt="figure">
+                    </aside>
+                    <div class="achievements__content">
+                        <div class="achievements__numbers">
+                            <h2>120+</h2>
+                            <p>Completed Projects</p>
                         </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="row">
-                            <div class="col-12" style="padding-top: 40px; padding-bottom: 35px;">
+                        <div class="achievements__rate">
+                            <div class="achievements__stars">
                                 <div class="stars-outer">
                                     <div class="stars-inner"></div>
                                 </div>
                             </div>
-                            <div class="col-12" id="txt-400" style="font-size: 24px">Positive Review’s</div>
+                            <p>Positive Review’s</p>
                         </div>
-                    </div>
-                </div>
-                <br>
-                <br>
-                <div class="col-12" id="txt-600" style="font-size: 48px;">Glad to Help You!</div>
-                <br>
-                <div class="col-12" id="txt-400" style="font-size: 24px; line-height: 45px;">As a web developer, I'm very keen on learning new </div>
-                <div class="col-12" id="txt-400" style="font-size: 24px; line-height: 45px">and pioneering technologies, </div>
-                <div class="col-12" id="txt-400" style="font-size: 24px; line-height: 45px">programming languages, and development</div>
-                <div class="col-12" id="txt-400" style="font-size: 24px; line-height: 45px">techniques.</div>
-            </div>
-        </div>
-        <!-- WHY HIRE ME? -->
-        <div class="row" style="margin-bottom: 120px;">
-            <div class="col-12 tittle-center" id="txt-600" style="font-size: 48px; margin-bottom: 100px; text-align: center;"> Why Hire Me?</div>
-            <div class="col-12">
-                <div class="row skills">
-                    <div class="col-3">
-                        <div class="row skill">
-                            <div class="col-12">
-                                <div class="pic">
-                                    <div style="background: url(./images/communication.png); "></div>
-                                </div>
-                            </div>
-                            <div class="col-12 tittle" id="txt-500">Communicative</div>
-                            <div class="col-12 description" id="txt-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="row skill">
-                            <div class="col-12">
-                                <div class="pic">
-                                    <div style="background-image: url(./images/Professional.png);"></div>
-                                </div>
-                            </div>
-                            <div class="col-12 tittle" id="txt-500">Professional</div>
-                            <div class="col-12 description" id="txt-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="row skill">
-                            <div class="col-12">
-                                <div class="pic">
-                                    <div style="background-image: url(./images/Collaborative.png);"></div>
-                                </div>
-                            </div>
-                            <div class="col-12 tittle" id="txt-500">Collaborative</div>
-                            <div class="col-12 description" id="txt-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="row skill">
-                            <div class="col-12">
-                                <div class="pic">
-                                    <div style="background-image: url(./images/favorite.png);"></div>
-                                </div>
-                            </div>
-                            <div class="col-12 tittle" id="txt-500">Client’s Favourite</div>
-                            <div class="col-12 description" id="txt-400">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</div>
-                        </div>
+                        <h2>Glad to Help You!</h2>
+                        <p>As a web developer, I'm very keen on learning new and pioneering technologies, programming
+                            languages, and development techniques.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- PORTFOLIO -->
-        <div class="row" style="margin-bottom: 120px; align-items: center;">
-            <div class="col-10" id="txt-600" style="font-size: 48px; margin-bottom: 100px;"> Portfolio</div>
-            <div class="col-2" id="txt-400" style="font-size: 20px; margin-bottom: 100px; color: #8e8e8e; cursor: pointer;"> See More  <i class="fas fa-long-arrow-alt-right"></i></div>
-            <div class="col-12">
-                <div class="row-portfolio">
-                    <div class="item" style="background-image: url(./images/Image.png);"></div>
-                    <div class="item" style="background-image: url(./images/Image2.png);"></div>
-                    <div class="item" style="background-image: url(./images/Image3.png);"></div>
-                    <div class="item" style="background-image: url(./images/Image4.png);"></div>
-                    <div class="item" style="background-image: url(./images/Image5.png);"></div>
-                    <div class="item" style="background-image: url(./images/Image6.png);"></div>
-                </div>
-            </div>
-        </div>
-        <!-- CLIENTS -->
-        <div class="row clients" style="margin-bottom: 120px; justify-items: center;">
-            <div class="col-12" id="txt-600" style="font-size: 48px; color: #fff; text-align: center;"> I’m Loved By Users And Clients Worldwide</div>
-            <div class="col-6">
-                
-            </div>
-            <div class="col-6">
-                
-            </div>
-        </div>
-        <!-- PRICES -->
-        <div class="row prices" style="margin-bottom: 120px; justify-items: center;">
-            <div class="col-12 tittle-center" id="txt-600" style="font-size: 48px; margin-bottom: 100px; text-align: center;"> Price Plans</div>
-            <div class="col-4 price-card">
-                <div class="header" id="txt-600">Silver</div>
-                <div class="content price">
-                    <span id="txt-600" style="font-size: 32px;">$1.00</span> <span id="txt-400" style="font-size: 15px;">/Hour</span>
-                </div>
-                <div class="content">
-                    <span class="check"><i class="fas fa-check"></i></span><span class="include" id="txt-500"> &nbsp; UI Design</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span><span class="include" id="txt-500"> &nbsp; Web development</span>
-                    <hr>
-                    <span class="times"><i class="fas fa-times"></i></span><span class="not-include" id="txt-400"> &nbsp; logo design</span>
-                    <hr>
-                    <span class="times"><i class="fas fa-times"></i></span><span class="not-include" id="txt-400"> &nbsp; seo optimization</span>
-                    <hr>
-                    <span class="times"><i class="fas fa-times"></i></span><span class="not-include" id="txt-400"> &nbsp; wordPress integration</span>
-                    <hr>
-                    <span class="times"><i class="fas fa-times"></i></span><span class="not-include" id="txt-400"> &nbsp; 5 Websites</span>
-                    <hr>
-                    <span class="times"><i class="fas fa-times"></i></span><span class="not-include" id="txt-400"> &nbsp; unlimited user</span>
-                    <hr>
-                    <span class="times"><i class="fas fa-times"></i></span><span class="not-include" id="txt-400"> &nbsp; 20 GB bandwith</span>
-                </div>
-            </div>
-            <div class="col-4 price-card">
-                <div class="header" id="txt-600">Gold</div>
-                <div class="content price">
-                    <span id="txt-600" style="font-size: 32px;">$50.00</span> <span id="txt-400" style="font-size: 15px;">/Hour</span>
-                </div>
-                <div class="content">
-                    <span class="check"><i class="fas fa-check"></i></span><span class="include" id="txt-500"> &nbsp; UI Design</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span><span class="include" id="txt-500"> &nbsp; Web development</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span><span class="include" id="txt-500"> &nbsp; logo design</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span><span class="include" id="txt-500"> &nbsp; seo optimization</span>
-                    <hr>
-                    <span class="times"><i class="fas fa-times"></i></span><span class="not-include" id="txt-400"> &nbsp; wordPress integration</span>
-                    <hr>
-                    <span class="times"><i class="fas fa-times"></i></span><span class="not-include" id="txt-400"> &nbsp; 5 Websites</span>
-                    <hr>
-                    <span class="times"><i class="fas fa-times"></i></span><span class="not-include" id="txt-400"> &nbsp; unlimited user</span>
-                    <hr>
-                    <span class="times"><i class="fas fa-times"></i></span><span class="not-include" id="txt-400"> &nbsp; 20 GB bandwith</span>
-                </div>
-            </div>
-            <div class="col-4 price-card">
-                <div class="header" id="txt-600">Diamond</div>
-                <div class="content price">
-                    <span id="txt-600" style="font-size: 32px;">$80.00</span> <span id="txt-400" style="font-size: 15px;">/Hour</span>
-                </div>
-                <div class="content">
-                    <span class="check"><i class="fas fa-check"></i></span><span class="include" id="txt-500"> &nbsp; UI Design</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span><span class="include" id="txt-500"> &nbsp; Web development</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span><span class="include" id="txt-500"> &nbsp; logo design</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span><span class="include" id="txt-500"> &nbsp; seo optimization</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span></i></span><span class="include" id="txt-500"> &nbsp; wordPress integration</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span></i></span><span class="include" id="txt-500"> &nbsp; 5 Websites</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span></i></span><span class="include" id="txt-500"> &nbsp; unlimited user</span>
-                    <hr>
-                    <span class="check"><i class="fas fa-check"></i></span></i></span><span class="include" id="txt-500"> &nbsp; 20 GB bandwith</span>
-                </div>
-            </div>
-        </div>
-        <!-- WORK TOGETHER -->
-        <div class="row work-card" style="margin-bottom: 120px;">
-            <div class="col-8 col-sm-12" id="txt-600" style="font-size: 36px; line-height: 62px;">Interested working with me?</div>
-            <div class="col-4 col-sm-12"><button id="txt-600">Email me</button></div>
-        </div>
-        <!-- BLOG -->
-        <div class="row blog" style="margin-bottom: 120px; justify-items: center;">
-            <div class="col-10" id="txt-600" style="font-size: 48px; margin-bottom: 100px;"> Blog</div>
-            <div class="col-2" id="txt-400" style="font-size: 20px; margin-bottom: 100px; color: #8e8e8e; cursor: pointer;"> See More  <i class="fas fa-long-arrow-alt-right"></i></div>
-            <div class="col-3 blog-card">
-                <div class="image-post" style="background-image: url(./images/blog1.png);"></div>
-                <div class="content">
-                    <span class="tittle-post" id="txt-500">How to make web tempates</span>
-                    <span class="resume-post" id="txt-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</span>
-                </div>
-                <button><i class="fas fa-long-arrow-alt-right"></i></button>
-            </div>
-            <div class="col-3 blog-card">
-                <div class="image-post" style="background-image: url(./images/blog2.png);"></div>
-                <div class="content">
-                    <span class="tittle-post" id="txt-500">How to make web tempates</span>
-                    <span class="resume-post" id="txt-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</span>
-                </div>
-                <button><i class="fas fa-long-arrow-alt-right"></i></button>
-            </div>
-            <div class="col-3 blog-card">
-                <div class="image-post" style="background-image: url(./images/blog3.png);"></div>
-                <div class="content">
-                    <span class="tittle-post" id="txt-500">How to make web tempates</span>
-                    <span class="resume-post" id="txt-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</span>
-                </div>
-                <button><i class="fas fa-long-arrow-alt-right"></i></button>
-            </div>
-            <div class="col-3 blog-card">
-                <div class="image-post" style="background-image: url(./images/blog1.png);"></div>
-                <div class="content">
-                    <span class="tittle-post" id="txt-500">How to make web tempates</span>
-                    <span class="resume-post" id="txt-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</span>
-                </div>
-                <button><i class="fas fa-long-arrow-alt-right"></i></button>
-            </div>
-        </div>
-        <!-- FOOTER -->
-        <div class="row footer" style="align-items: center; justify-items: center;">
-            <div class="col-4">
-                <span><i class="far fa-envelope"></i></span><span style="font-size: 18px;" id="txt-500"> &nbsp; mmr315@gmail.com</span>
-            </div>
-            <div class="col-4">
-                <span style="font-size: 18px;" id="txt-500">© Copyright 2021 | mmrz315</span>
-            </div>
-            <div class="col-4">
-                <span><i class="fab fa-instagram"></i><span><span>&nbsp; &nbsp;<i class="fab fa-telegram-plane"></i></span>
-            </div>
-        </div>
-    </div>
+        </section>
+        <!-- Habilidades -->
+        <section class="skills">
+            <div class="container--padding">
+                <h2>Why Hire Me?</h2>
+                <div class="skills__list">
     
+                    <div class="skills__item">
+                        <aside class="skills__aside">
+                            <figure class="skills__figure">
+                                <img class="skills__image" src="./images/communication.png" alt="Communicative">
+                            </figure>
+                        </aside>
+                        <div class="skills__header">
+                            <h3 class="skills__name">Communicative</h3>
+                        </div>
+                        <div class="skills__body">
+                            <p class="skills__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p>
+                        </div>
+                    </div>
+    
+                    <div class="skills__item">
+                        <aside class="skills__aside">
+                            <figure class="skills__figure">
+                                <img class="skills__image" src="./images/Professional.png" alt="Professional">
+                            </figure>
+                        </aside>
+                        <div class="skills__header">
+                            <h3 class="skills__name">Professional</h3>
+                        </div>
+                        <div class="skills__body">
+                            <p class="skills__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p>
+                        </div>
+                    </div>
+    
+                    <div class="skills__item">
+                        <aside class="skills__aside">
+                            <figure class="skills__figure">
+                                <img class="skills__image" src="./images/Collaborative.png" alt="Collaborative">
+                            </figure>
+                        </aside>
+                        <div class="skills__header">
+                            <h3 class="skills__name">Collaborative</h3>
+                        </div>
+                        <div class="skills__body">
+                            <p class="skills__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p>
+                        </div>
+                    </div>
+    
+                    <div class="skills__item">
+                        <aside class="skills__aside">
+                            <figure class="skills__figure">
+                                <img class="skills__image" src="./images/favorite.png" alt="Client’s Favourite">
+                            </figure>
+                        </aside>
+                        <div class="skills__header">
+                            <h3 class="skills__name">Client’s Favourite</h3>
+                        </div>
+                        <div class="skills__body">
+                            <p class="skills__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+        <!-- Portafolio -->
+        <section class="portfolio">
+            <div class="container--padding">
+                <div class="portfolio__header">
+                    <h2 class="portfolio__title">Portfolio</h2>
+                    <div class="portfolio__see-more">
+                        <p>See More</p><i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+                </div>
+                <div class="portfolio__list">
+                    <img class="portfolio__item" src="./images/Image.png" alt="Landing page"/>
+                    <img class="portfolio__item" src="./images/Image2.png" alt="Landing page"/>
+                    <img class="portfolio__item" src="./images/Image3.png" alt="Landing page"/>
+                    <img class="portfolio__item" src="./images/Image4.png" alt="Landing page"/>
+                    <img class="portfolio__item" src="./images/Image5.png" alt="Landing page"/>
+                    <img class="portfolio__item" src="./images/Image6.png" alt="Landing page"/>
+                </div>
+            </div>
+        </section>
+        <!-- Clientes -->
+        <section class="clients">
+            <h2 class="clients__tittle">I’m Loved By Users And Clients Worldwide</h2>
+            <div class="clients__container">
+                <div class="clients__card">
+                    <div class="clients__opinion">
+                        <p>One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+                    </div>
+                    <img class="clients__pic" src="./images/user1.png" alt="user Ronald Richards">
+                    <div class="clients__name"><span class="txt-600 txt-16">Ronald Richards</span></div>
+                    <div class="clients__rol"><span class=" rol txt-400 txt-14">UI/UX Designer</span></div>
+                    <div class="numbers__rate"><span class="txt-600 txt-16">4.5</span></div>
+                    <div class="clients__star-rate"> 
+                        <div class="clients__stars-outer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Planes -->
+        <section class="plans">
+            <div class="container--padding">
+                <div class="plans__tittle">
+                    <h2>Price Plans</h2>
+                </div>
+                <div class="plans__container">
+                    <div class="plans__list">
+
+                        <div class="plans__card">
+                            <div class="plans__header">
+                                <p>Silver</p>
+                                <div class="plans__price">
+                                    <p>$1.00 <span class="">/Hour</span></p>
+                                </div>
+                            </div>
+                            <div class="plans__content">
+                                <ul class="plans__features">
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; UI Design</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; Web development</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; logo design</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; seo optimization</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; wordPress integration</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; 5 Websites</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; unlimited user</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; 20 GB bandwith</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="plans__card">
+                            <div class="plans__header">
+                                <p>Gold</p>
+                                <div class="plans__price">
+                                    <p>$50.00 <span class="">/Hour</span></p>
+                                </div>
+                            </div>
+                            <div class="plans__content">
+                                <ul class="plans__features">
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; UI Design</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; Web development</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; logo design</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; seo optimization</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; wordPress integration</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; 5 Websites</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; unlimited user</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; 20 GB bandwith</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="plans__card">
+                            <div class="plans__header">
+                                <p>Silver</p>
+                                <div class="plans__price">
+                                    <p>$80.00 <span class="">/Hour</span></p>
+                                </div>
+                            </div>
+                            <div class="plans__content">
+                                <ul class="plans__features">
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; UI Design</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; Web development</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; logo design</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; seo optimization</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; wordPress integration</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; 5 Websites</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; unlimited user</p>
+                                    </li>
+                                    <li>
+                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; 20 GB bandwith</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contacto -->
+        <section class="contact">
+            <div class="container--padding">
+                <div class="card">
+                    <p>Interested working with me?</p>
+                    <a href="mailto:contact@correo.com">Email me</a>
+                </div>
+            </div>
+        </section>
+        <!-- Blog -->
+        <section class="blog">
+            <div class="blog__header">
+                <h2 class="blog__title">Blog</h2>
+                <div class="blog__see-more">
+                    <p>See More</p><i class="fas fa-long-arrow-alt-right"></i>
+                </div>
+            </div>
+            <div class="blog__list">
+                <div class="blog__card">
+                    <figure class="blog__pic">
+                        <img class="image-post" src="./images/blog1.png" alt="Web templates">
+                    </figure>
+                    <div class="blog__content">
+                        <p class="blog__tittle">How to make web tempates</p>
+                        <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+                    </div>
+                    <a class="blog__button"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="blog__card">
+                    <figure class="blog__pic">
+                        <img class="image-post" src="./images/blog2.png" alt="Web templates">
+                    </figure>
+                    <div class="blog__content">
+                        <p class="blog__tittle">How to make web tempates</p>
+                        <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+                    </div>
+                    <a class="blog__button"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="blog__card">
+                    <figure class="blog__pic">
+                        <img class="image-post" src="./images/blog3.png" alt="Web templates">
+                    </figure>
+                    <div class="blog__content">
+                        <p class="blog__tittle">How to make web tempates</p>
+                        <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+                    </div>
+                    <a class="blog__button"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="blog__card">
+                    <figure class="blog__pic">
+                        <img class="image-post" src="./images/blog1.png" alt="Web templates">
+                    </figure>
+                    <div class="blog__content">
+                        <p class="blog__tittle">How to make web tempates</p>
+                        <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+                    </div>
+                    <a class="blog__button"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div>
+                <span><i class="far fa-envelope"></i></span>
+                <a class="footer__email" href="mailto:contact@correo.com"> &nbsp; mmr315@gmail.com</a>
+            </div>
+            <div>
+                <p class="footer__copyright">© Copyright 2021 | mmrz315</p>
+            </div>
+            <div>
+                <span class="txt-18">
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    &nbsp; &nbsp;
+                    <a href="#">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
