@@ -16,31 +16,31 @@
         <nav class="header__navigate">
             <ul class="header__list">
                 <li class="header__item">
-                    <a href="#presentation" class="header__link">
+                    <a href="#presentation" class="header__link" aria-label="link a sección de presentación">
                         <i class="fas fa-home" aria-hidden="true"></i>
                         <p>Presentation</p>
                     </a>
                 </li>
                 <li class="header__item">
-                    <a href="#achievements" class="header__link">
+                    <a href="#achievements" class="header__link" aria-label="link a sección de logros">
                         <i class="fas fa-user" aria-hidden="true"></i>
                         <p>Achievements</p>
                     </a>
                 </li>
                 <li class="header__item">
-                    <a href="#portfolio" class="header__link">
+                    <a href="#portfolio" class="header__link" aria-label="link a sección de portafolio">
                         <i class="fas fa-suitcase" aria-hidden="true"></i>
                         <p>Portfolio</p>
                     </a>
                 </li>
                 <li class="header__item">
-                    <a href="#plans" class="header__link">
+                    <a href="#plans" class="header__link" aria-label="link a sección costo de servicios">
                         <i class="fas fa-file-alt" aria-hidden="true"></i>
                         <p>Plans</p>
                     </a>
                 </li>
                 <li class="header__item">
-                    <a href="#working-together" class="header__link">
+                    <a href="#contact" class="header__link" aria-label="link a sección de contacto">
                         <i class="fas fa-comment-dots" aria-hidden="true"></i>
                         <p>Work Together</p>
                     </a>
@@ -55,56 +55,56 @@
 
     <main>
         <!-- Presentación -->
-        <section class="presentation">
+        <section class="presentation"  id="presentation">
             <div class="container--padding">
-                <div>
+                <div class="presentation__info">
                     <p>HI!</p>
                     <h1>I’m Mohammad Reza. a Frontend developer.</h1>
                     <p>Frontend developer based in tehran, Iran. I am coding with a clean and beautiful problem solving
                         in mind.</p>
                     <nav class="presentation__navigate">
-                        <ul class="presentation__list">
+                        <ul class="presentation__list" aria-label="Mis redes sociales">
                             <li class="presentation__follow">
                                 <p>Follow me: </p>
                             </li>
                             <li class="presentation__item">
-                                <a class="presentation__link">
+                                <a class="presentation__link" href="https://facebook.com" aria-label="Link a mi perfil de Facebook">
                                     <i class="fab fa-facebook-f" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li class="presentation__item">
-                                <a class="presentation__link">
+                                <a class="presentation__link" href="https://twitter.com" aria-label="Link a mi perfil de Twitter">
                                     <i class="fab fa-twitter" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li class="presentation__item">
-                                <a class="presentation__link">
+                                <a class="presentation__link" href="https://instagram.com" aria-label="Link a mi perfil de Instagram">
                                     <i class="fab fa-instagram" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li class="presentation__item">
-                                <a class="presentation__link">
+                                <a class="presentation__link" href="https://telegram.com" aria-label="Link a mi perfil de Telegram">
                                     <i class="fab fa-telegram-plane" aria-hidden="true"></i>
                                 </a>
                             </li>
                         </ul>
                     </nav>
                     <div class="presentation__actions">
-                        <a class="presentation__link">Send Request</a>
-                        <a class="presentation__link">Send Request</a>
+                        <a class="presentation__link" role="button" href="mailto:contact@correo.com" aria-label="Enviar Solicitud">Send Request</a>
+                        <a class="presentation__link" role="button" href="#" aria-label="DEscargar Hoja de Vida">Download CV</a>
                     </div>
                 </div>
-                <div class="presentation__profile">
-                    <img class="presentation__pic" src="./images/photo.png" alt="face photo of Mohammad Reza">
+                <div class="presentation__pic">
+                    <img class="presentation__image" src="./images/photo.png" alt="face photo of Mohammad Reza">
                 </div>
             </div>
         </section>
         <!-- Logros -->
-        <section class="achievements">
+        <section class="achievements" id="achievements">
             <div class="container--padding">
                 <div class="card">
                     <aside class="achievements__figure">
-                        <img class="img-project" src="./images/zoomed.png" alt="figure">
+                        <img class="achievements__image" src="./images/zoomed.png" alt="figure">
                     </aside>
                     <div class="achievements__content">
                         <div class="achievements__numbers">
@@ -119,15 +119,17 @@
                             </div>
                             <p>Positive Review’s</p>
                         </div>
-                        <h2>Glad to Help You!</h2>
-                        <p>As a web developer, I'm very keen on learning new and pioneering technologies, programming
-                            languages, and development techniques.</p>
+                        <div class="achievements__invitation">
+                            <h2>Glad to Help You!</h2>
+                            <p>As a web developer, I'm very keen on learning new and pioneering technologies, programming
+                                languages, and development techniques.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Habilidades -->
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="container--padding">
                 <h2>Why Hire Me?</h2>
                 <div class="skills__list">
@@ -192,7 +194,7 @@
             </div>
         </section>
         <!-- Portafolio -->
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="container--padding">
                 <div class="portfolio__header">
                     <h2 class="portfolio__title">Portfolio</h2>
@@ -211,7 +213,7 @@
             </div>
         </section>
         <!-- Clientes -->
-        <section class="clients">
+        <section class="clients" id="clients">
             <h2 class="clients__tittle">I’m Loved By Users And Clients Worldwide</h2>
             <div class="clients__container">
                 <div class="clients__card">
@@ -219,9 +221,9 @@
                         <p>One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
                     </div>
                     <img class="clients__pic" src="./images/user1.png" alt="user Ronald Richards">
-                    <div class="clients__name"><span class="txt-600 txt-16">Ronald Richards</span></div>
-                    <div class="clients__rol"><span class=" rol txt-400 txt-14">UI/UX Designer</span></div>
-                    <div class="numbers__rate"><span class="txt-600 txt-16">4.5</span></div>
+                    <div><p class="clients__name">Ronald Richards</p></div>
+                    <div><p class="clients__rol">UI/UX Designer</p></div>
+                    <div><p class="numbers__rate">4.5</p></div>
                     <div class="clients__star-rate"> 
                         <div class="clients__stars-outer">
                         </div>
@@ -230,7 +232,7 @@
             </div>
         </section>
         <!-- Planes -->
-        <section class="plans">
+        <section class="plans" id="plans">
             <div class="container--padding">
                 <div class="plans__tittle">
                     <h2>Price Plans</h2>
@@ -353,16 +355,16 @@
             </div>
         </section>
         <!-- Contacto -->
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container--padding">
                 <div class="card">
                     <p>Interested working with me?</p>
-                    <a href="mailto:contact@correo.com">Email me</a>
+                    <a class="contact__link" role="button" href="mailto:contact@correo.com" aria-label="Enviar Email">Email me</a>
                 </div>
             </div>
         </section>
         <!-- Blog -->
-        <section class="blog">
+        <section class="blog" id="blog">
             <div class="blog__header">
                 <h2 class="blog__title">Blog</h2>
                 <div class="blog__see-more">
@@ -375,10 +377,10 @@
                         <img class="image-post" src="./images/blog1.png" alt="Web templates">
                     </figure>
                     <div class="blog__content">
-                        <p class="blog__tittle">How to make web tempates</p>
+                        <p class="blog__tittle">First Blog</p>
                         <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
                     </div>
-                    <a class="blog__button"><i class="fas fa-long-arrow-alt-right"></i></a>
+                    <a class="blog__button" role="button" href="#" aria-label="Ir a primer blog"><i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
 
                 <div class="blog__card">
@@ -386,10 +388,10 @@
                         <img class="image-post" src="./images/blog2.png" alt="Web templates">
                     </figure>
                     <div class="blog__content">
-                        <p class="blog__tittle">How to make web tempates</p>
+                        <p class="blog__tittle">Second Blog</p>
                         <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
                     </div>
-                    <a class="blog__button"><i class="fas fa-long-arrow-alt-right"></i></a>
+                    <a class="blog__button" role="button" href="#" aria-label="Ir a segundo blog"><i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
 
                 <div class="blog__card">
@@ -397,10 +399,10 @@
                         <img class="image-post" src="./images/blog3.png" alt="Web templates">
                     </figure>
                     <div class="blog__content">
-                        <p class="blog__tittle">How to make web tempates</p>
+                        <p class="blog__tittle">Third Blog</p>
                         <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
                     </div>
-                    <a class="blog__button"><i class="fas fa-long-arrow-alt-right"></i></a>
+                    <a class="blog__button" role="button" href="#" aria-label="Ir a tercer blog"><i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
 
                 <div class="blog__card">
@@ -408,32 +410,32 @@
                         <img class="image-post" src="./images/blog1.png" alt="Web templates">
                     </figure>
                     <div class="blog__content">
-                        <p class="blog__tittle">How to make web tempates</p>
+                        <p class="blog__tittle">Fourth Blog</p>
                         <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
                     </div>
-                    <a class="blog__button"><i class="fas fa-long-arrow-alt-right"></i></a>
+                    <a class="blog__button" role="button" href="#" aria-label="Ir a cuarto blog"><i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
             </div>
         </section>
     </main>
     
     <!-- Pie de página -->
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer__container">
             <div>
                 <span><i class="far fa-envelope"></i></span>
-                <a class="footer__email" href="mailto:contact@correo.com"> &nbsp; mmr315@gmail.com</a>
+                <a class="footer__email" href="mailto:contact@correo.com" aria-label="email de contacto"> &nbsp; mmr315@gmail.com</a>
             </div>
             <div>
                 <p class="footer__copyright">© Copyright 2021 | mmrz315</p>
             </div>
             <div>
                 <span class="txt-18">
-                    <a href="#">
+                    <a href="#" aria-label="Link a mi perfil de Instagram">
                         <i class="fab fa-instagram"></i>
                     </a>
                     &nbsp; &nbsp;
-                    <a href="#">
+                    <a href="#" aria-label="Link a mi perfil de Telegram">
                         <i class="fab fa-telegram-plane"></i>
                     </a>
                 </span>
