@@ -2,8 +2,8 @@
 // Anchos minimos (min-width) : @include mq-min(sm) {}
 // ==========================================================================
 @mixin mq-min($breakpoint) {
-  @if map-has-key($breakpoints, $breakpoint) {
-    $breakpoint-value: map-get($breakpoints, $breakpoint);
+  @if map-has-key($breakpoints, $breakpoint) { //comprueba si la clave existe en la colección evaluada
+    $breakpoint-value: map-get($breakpoints, $breakpoint); //toma el valor de l acolección perteneciente a la clave y lo asigna a la variable.
     @media (min-width: $breakpoint-value) {
       @content;
     }
@@ -72,7 +72,7 @@
   }
   &:focus {
     outline: 0;
-    box-shadow: 0 0 0 0.15rem rgba(color(primary, base), 0.25);
+    box-shadow: 0 0 0 0.15rem rgba(color(primary, orange-1), 0.25);
     text-decoration: none;
   }
   &:active {

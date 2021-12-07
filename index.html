@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="index.js"></script>
     <title>Portafolio</title>
 </head>
 
@@ -13,35 +15,37 @@
     <!-- Cabecera -->
     <header class="header">
         <nav class="header__navigate">
-            <ul class="header__list">
+            <a href="#" class="header__logo">Logo</a>
+            <div class="header__toggle"><i class="icon-menu"></i></div>
+            <ul class="header__list menu-hidden">
                 <li class="header__item">
                     <a href="#presentation" class="header__link" aria-label="link a sección de presentación">
-                        <i class="fas fa-home" aria-hidden="true"></i>
-                        <p>Presentation</p>
+                        <i class="icon-home" aria-hidden="true"></i>
+                        <p class="header__link-name">Presentation</p>
                     </a>
                 </li>
                 <li class="header__item">
                     <a href="#achievements" class="header__link" aria-label="link a sección de logros">
-                        <i class="fas fa-user" aria-hidden="true"></i>
-                        <p>Achievements</p>
+                        <i class="icon-user" aria-hidden="true"></i>
+                        <p class="header__link-name">Achievements</p>
                     </a>
                 </li>
                 <li class="header__item">
                     <a href="#portfolio" class="header__link" aria-label="link a sección de portafolio">
-                        <i class="fas fa-suitcase" aria-hidden="true"></i>
-                        <p>Portfolio</p>
+                        <i class="icon-suitcase" aria-hidden="true"></i>
+                        <p class="header__link-name">Portfolio</p>
                     </a>
                 </li>
                 <li class="header__item">
                     <a href="#plans" class="header__link" aria-label="link a sección costo de servicios">
-                        <i class="fas fa-file-alt" aria-hidden="true"></i>
-                        <p>Plans</p>
+                        <i class="icon-file" aria-hidden="true"></i>
+                        <p class="header__link-name">Plans</p>
                     </a>
                 </li>
                 <li class="header__item">
                     <a href="#contact" class="header__link" aria-label="link a sección de contacto">
-                        <i class="fas fa-comment-dots" aria-hidden="true"></i>
-                        <p>Work Together</p>
+                        <i class="icon-comment" aria-hidden="true"></i>
+                        <p class="header__link-name">Work Together</p>
                     </a>
                 </li>
             </ul>
@@ -59,44 +63,45 @@
     <main>
         <!-- Presentación -->
         <section class="presentation"  id="presentation">
-            <div class="container--padding">
-                <div class="presentation__info">
+            <div class="container grid">
+                <div class="presentation__info grid-12">
                     <p>HI!</p>
-                    <h1>I’m Mohammad Reza. a Frontend developer.</h1>
-                    <p>Frontend developer based in tehran, Iran. I am coding with a clean and beautiful problem solving
-                        in mind.</p>
+                    <h1>I’m Mohamad Reza. Frontend developer.</h1>
+                    <p>Frontend developer based in tehran, Iran.</p>
+                    <p>I am coding with a clean and beautiful problem solving in mind.</p>
                     <nav class="presentation__navigate">
-                        <ul class="presentation__list" aria-label="Mis redes sociales">
+                        <ul class="presentation__list grid" aria-label="Mis redes sociales">
                             <li class="presentation__follow">
                                 <p>Follow me: </p>
                             </li>
-                            <li class="presentation__item">
-                                <a class="presentation__link" href="https://facebook.com" aria-label="Link a mi perfil de Facebook">
-                                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <li class="presentation__item grid-3">
+                                <a class="presentation__link button-round button-round-blue" href="https://facebook.com" aria-label="Link a mi perfil de Facebook">
+                                    <i class="icon-facebook" aria-hidden="true"></i>
                                 </a>
                             </li>
-                            <li class="presentation__item">
-                                <a class="presentation__link" href="https://twitter.com" aria-label="Link a mi perfil de Twitter">
-                                    <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <li class="presentation__item grid-3">
+                                <a class="presentation__link button-round button-round-magenta" href="https://twitter.com" aria-label="Link a mi perfil de Twitter">
+                                    <i class="icon-twitter" aria-hidden="true"></i>
                                 </a>
                             </li>
-                            <li class="presentation__item">
-                                <a class="presentation__link" href="https://instagram.com" aria-label="Link a mi perfil de Instagram">
-                                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <li class="presentation__item grid-3">
+                                <a class="presentation__link button-round button-round-cyan" href="https://instagram.com" aria-label="Link a mi perfil de Instagram">
+                                    <i class="icon-instagram" aria-hidden="true"></i>
                                 </a>
                             </li>
-                            <li class="presentation__item">
-                                <a class="presentation__link" href="https://telegram.com" aria-label="Link a mi perfil de Telegram">
-                                    <i class="fab fa-telegram-plane" aria-hidden="true"></i>
+                            <li class="presentation__item grid-3">
+                                <a class="presentation__link button-round button-round-orange" href="https://telegram.com" aria-label="Link a mi perfil de Telegram">
+                                    <i class="icon-telegram" aria-hidden="true"></i>
                                 </a>
                             </li>
                         </ul>
                     </nav>
-                    <div class="presentation__actions">
-                        <a class="presentation__link" role="button" href="mailto:contact@correo.com" aria-label="Enviar Solicitud">Send Request</a>
-                        <a class="presentation__link" role="button" href="#" aria-label="DEscargar Hoja de Vida">Download CV</a>
+                    <div class="presentation__actions grid">
+                        <a class="button-primary button-primary-red grid-6" role="button" href="mailto:contact@correo.com" aria-label="Enviar Solicitud">Send Request</a>
+                        <a class="button-primary button-primary-orange outline grid-6" role="button" href="#" aria-label="DEscargar Hoja de Vida">Download CV</a>
                     </div>
                 </div>
+                
                 <div class="presentation__pic">
                     <img class="presentation__image" src="./images/photo.png" alt="face photo of Mohammad Reza">
                 </div>
@@ -104,28 +109,30 @@
         </section>
         <!-- Logros -->
         <section class="achievements" id="achievements">
-            <div class="container--padding">
-                <div class="card">
-                    <aside class="achievements__figure">
-                        <img class="achievements__image" src="./images/zoomed.png" alt="figure">
-                    </aside>
-                    <div class="achievements__content">
-                        <div class="achievements__numbers">
-                            <h2>120+</h2>
-                            <p>Completed Projects</p>
-                        </div>
-                        <div class="achievements__rate">
-                            <div class="achievements__stars">
-                                <div class="stars-outer">
-                                    <div class="stars-inner"></div>
-                                </div>
+            <div class="card">
+                <div class="container grid">
+                    <div class="achievements__figure grid-12">
+                        <img class="achievements__image" src="./images/zoomed.png" alt="figure"  width="299" height="228">
+                    </div>
+                    <div class="achievements__content grid-12">
+                        <div class="grid">
+                            <div class="achievements__numbers grid-12">
+                                <h2>120+</h2>
+                                <p>Completed Projects</p>
                             </div>
-                            <p>Positive Review’s</p>
-                        </div>
-                        <div class="achievements__invitation">
-                            <h2>Glad to Help You!</h2>
-                            <p>As a web developer, I'm very keen on learning new and pioneering technologies, programming
-                                languages, and development techniques.</p>
+                            <div class="achievements__rate grid-12">
+                                <div class="achievements__stars">
+                                    <div class="stars-outer">
+                                        <div class="stars-inner"></div>
+                                    </div>
+                                </div>
+                                <p>Positive Review’s</p>
+                            </div>
+                            <div class="achievements__invitation grid-12">
+                                <h2>Glad to Help You!</h2>
+                                <p>As a web developer, I'm very keen on learning new and pioneering technologies, programming
+                                    languages, and development techniques.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -133,16 +140,16 @@
         </section>
         <!-- Habilidades -->
         <section class="skills" id="skills">
-            <div class="container--padding">
-                <h2>Why Hire Me?</h2>
-                <div class="skills__list">
-    
+            <div class="container grid">
+                <h2 class="grid-12">Why Hire Me?</h2>
+                <div class="skills__list grid-12">
+
                     <div class="skills__item">
-                        <aside class="skills__aside">
+                        <div class="skills__aside">
                             <figure class="skills__figure">
                                 <img class="skills__image" src="./images/communication.png" alt="Communicative">
                             </figure>
-                        </aside>
+                        </div>
                         <div class="skills__header">
                             <h3 class="skills__name">Communicative</h3>
                         </div>
@@ -152,11 +159,11 @@
                     </div>
     
                     <div class="skills__item">
-                        <aside class="skills__aside">
+                        <div class="skills__aside">
                             <figure class="skills__figure">
                                 <img class="skills__image" src="./images/Professional.png" alt="Professional">
                             </figure>
-                        </aside>
+                        </div>
                         <div class="skills__header">
                             <h3 class="skills__name">Professional</h3>
                         </div>
@@ -166,11 +173,11 @@
                     </div>
     
                     <div class="skills__item">
-                        <aside class="skills__aside">
+                        <div class="skills__aside">
                             <figure class="skills__figure">
                                 <img class="skills__image" src="./images/Collaborative.png" alt="Collaborative">
                             </figure>
-                        </aside>
+                        </div>
                         <div class="skills__header">
                             <h3 class="skills__name">Collaborative</h3>
                         </div>
@@ -180,11 +187,11 @@
                     </div>
     
                     <div class="skills__item">
-                        <aside class="skills__aside">
+                        <div class="skills__aside">
                             <figure class="skills__figure">
                                 <img class="skills__image" src="./images/favorite.png" alt="Client’s Favourite">
                             </figure>
-                        </aside>
+                        </div>
                         <div class="skills__header">
                             <h3 class="skills__name">Client’s Favourite</h3>
                         </div>
@@ -198,14 +205,12 @@
         </section>
         <!-- Portafolio -->
         <section class="portfolio" id="portfolio">
-            <div class="container--padding">
-                <div class="portfolio__header">
-                    <h2 class="portfolio__title">Portfolio</h2>
-                    <div class="portfolio__see-more">
-                        <a class="blog__link" href="#" aria-label="See more">See More <i class="fas fa-long-arrow-alt-right"></i></a>
-                    </div>
+            <div class="container grid">
+                <h2 class="portfolio__tittle grid-12">Portfolio</h2>
+                <div class="portfolio__see-more grid-12">
+                    <a class="portfolio__link" href="#" aria-label="See more">See More <i class="icon-arrow_1"></i></a>
                 </div>
-                <div class="portfolio__list">
+                <div class="portfolio__list grid-12">
                     <img class="portfolio__item" src="./images/Image.png" alt="Landing page"/>
                     <img class="portfolio__item" src="./images/Image2.png" alt="Landing page"/>
                     <img class="portfolio__item" src="./images/Image3.png" alt="Landing page"/>
@@ -236,45 +241,44 @@
         </section>
         <!-- Planes -->
         <section class="plans" id="plans">
-            <div class="container--padding">
-                <div class="plans__tittle">
-                    <h2>Price Plans</h2>
-                </div>
-                <div class="plans__container">
+            <div class="container grid">
+                <h2 class="plans__tittle grid-12">Price Plans</h2>
+                <div class="plans__container grid-12">
                     <div class="plans__list">
-
                         <div class="plans__card">
                             <div class="plans__header">
-                                <p>Silver</p>
+                                <div class="plans__card-tittle">
+                                    <p>Silver</p>
+                                </div>
                                 <div class="plans__price">
-                                    <p>$1.00 <span class="">/Hour</span></p>
+                                    <p>$1.00 <span class="hour">/Hour</span></p>
                                 </div>
                             </div>
                             <div class="plans__content">
                                 <ul class="plans__features">
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; UI Design</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; UI Design</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; Web development</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; Web development</p>
                                     </li>
                                     <li>
-                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; logo design</p>
+                                        <p class="plans__not-include"><span><i class="icon-times"></i></span> &nbsp; logo design</p>
                                     </li>
                                     <li>
-                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; seo optimization</p>
+                                        <p class="plans__not-include"><span><i class="icon-times"></i></span> &nbsp; seo optimization</p>
                                     </li>
                                     <li>
-                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; wordPress integration</p>
+                                        <p class="plans__not-include"><span><i class="icon-times"></i></span> &nbsp; wordPress integration</p>
                                     </li>
                                     <li>
-                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; 5 Websites</p>
+                                        <p class="plans__not-include"><span><i class="icon-times"></i></span> &nbsp; 5 Websites</p>
                                     </li>
                                     <li>
-                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; unlimited user</p>
+                                        <p class="plans__not-include"><span><i class="icon-times"></i></span> &nbsp; unlimited user</p>
                                     </li>
                                     <li>
-                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; 20 GB bandwith</p>
+                                        <p class="plans__not-include"><span><i class="icon-times"></i></span> &nbsp; 20 GB bandwith</p>
                                     </li>
                                 </ul>
                             </div>
@@ -282,36 +286,38 @@
 
                         <div class="plans__card">
                             <div class="plans__header">
-                                <p>Gold</p>
+                                <div class="plans__card-tittle">
+                                    <p>Gold</p>
+                                </div>
                                 <div class="plans__price">
-                                    <p>$50.00 <span class="">/Hour</span></p>
+                                    <p>$50.00 <span class="hour">/Hour</span></p>
                                 </div>
                             </div>
                             <div class="plans__content">
                                 <ul class="plans__features">
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; UI Design</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; UI Design</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; Web development</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; Web development</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; logo design</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; logo design</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; seo optimization</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; seo optimization</p>
                                     </li>
                                     <li>
-                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; wordPress integration</p>
+                                        <p class="plans__not-include"><span><i class="icon-times"></i></span> &nbsp; wordPress integration</p>
                                     </li>
                                     <li>
-                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; 5 Websites</p>
+                                        <p class="plans__not-include"><span><i class="icon-times"></i></span> &nbsp; 5 Websites</p>
                                     </li>
                                     <li>
-                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; unlimited user</p>
+                                        <p class="plans__not-include"><span><i class="icon-times"></i></span> &nbsp; unlimited user</p>
                                     </li>
                                     <li>
-                                        <p class="plans__not-include"><span><i class="fas fa-times"></i></span> &nbsp; 20 GB bandwith</p>
+                                        <p class="plans__not-include"><span><i class="icon-times"></i></span> &nbsp; 20 GB bandwith</p>
                                     </li>
                                 </ul>
                             </div>
@@ -319,36 +325,38 @@
 
                         <div class="plans__card">
                             <div class="plans__header">
-                                <p>Silver</p>
+                                <div class="plans__card-tittle">
+                                    <p>Silver</p>
+                                </div>
                                 <div class="plans__price">
-                                    <p>$80.00 <span class="">/Hour</span></p>
+                                    <p>$80.00 <span class="hour">/Hour</span></p>
                                 </div>
                             </div>
                             <div class="plans__content">
                                 <ul class="plans__features">
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; UI Design</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; UI Design</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; Web development</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; Web development</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; logo design</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; logo design</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; seo optimization</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; seo optimization</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; wordPress integration</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; wordPress integration</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; 5 Websites</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; 5 Websites</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; unlimited user</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; unlimited user</p>
                                     </li>
                                     <li>
-                                        <p class="plans__include"><span><i class="fas fa-check"></i></span> &nbsp; 20 GB bandwith</p>
+                                        <p class="plans__include"><span><i class="icon-check"></i></span> &nbsp; 20 GB bandwith</p>
                                     </li>
                                 </ul>
                             </div>
@@ -359,7 +367,7 @@
         </section>
         <!-- Contacto -->
         <section class="contact" id="contact">
-            <div class="container--padding">
+            <div class="container">
                 <div class="card">
                     <p>Interested working with me?</p>
                     <a class="contact__link" role="button" href="mailto:contact@correo.com" aria-label="Enviar Email">Email me</a>

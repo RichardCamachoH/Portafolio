@@ -1,0 +1,336 @@
+body {
+    background-color: color(primary, back);
+
+    .presentation {
+
+        padding: 0rem 1rem;
+        margin-top: 94px;
+        margin-bottom: 109px;
+        
+        .presentation__info {
+
+            p:nth-child(1) {
+                font-size: map-get($sizes, "half");
+            }
+
+            h1 {
+                font-size: map-get($sizes, "medium");
+                font-weight: map-get($weights, "semi_bold");
+                line-height: 62px;
+                margin-bottom: 24px;
+            }
+
+            p:nth-child(3), p:nth-child(4) {
+                font-size: map-get($sizes, "base_2");
+                margin-bottom: 1rem;
+            }
+        }
+        
+        .presentation__navigate {
+            margin-top: 76px;
+            margin-bottom: 55px;
+            
+            .presentation__list {
+                justify-items: center;
+
+                .presentation__follow{
+                    display: none;
+                }
+            }
+        }
+
+        .presentation__actions {
+            justify-items: center;
+
+        }
+        
+    }
+
+    .achievements {
+
+        .card {
+            height: 992px;
+            padding: 36px 20px;
+            background: #FF7315;
+            color: #ffffff;
+            border-radius: 35px;
+
+            .container {
+
+                justify-items: center;
+
+                .achievements__figure {
+                    order: 2;
+                }
+
+                .achievements__content {
+                    order: 1;
+
+                    .grid{
+                        justify-items: center;
+
+                        .achievements__numbers {
+                            text-align: center;
+                            margin-bottom: 30px;
+
+                            h2 {
+                                font-size: map-get($sizes, "large");
+                                font-weight: map-get($weights, "semi_bold");
+                            }
+
+                            p {
+                                font-size: map-get($sizes, "half");
+                            }
+                        }
+
+                        .achievements__rate {
+                            text-align: center;
+
+                            p {
+                                margin-top: 32px;
+                                font-size: map-get($sizes, "half");
+                            }
+                        }
+
+                        .achievements__invitation {
+                            margin-top: 40px;
+                            margin-bottom: 30px;
+
+                            h2 {
+                                margin-bottom: 40px;
+                                font-size: map-get($sizes, "medium");
+                                font-weight: map-get($weights, "semi_bold");
+                            }
+                            
+                            p {
+                                line-height: 45px;
+                                font-size: map-get($sizes, "thumb");
+                            }
+                        }
+
+                    }
+
+                    .stars-outer {
+                        font-size: 30px;
+                        display: inline-block;
+                        position: relative;
+                        font-family: 'iconFont';
+                    }
+                    
+                    .stars-outer::before {
+                        content: "\e90b \e90b \e90b \e90b \e90b";
+                        color: #FDB688;
+                        font-weight: 900;
+                    }
+                    
+                    .stars-inner {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        width: 0;
+                        font-family: 'iconFont';
+                        width: 90%;
+                    }
+                    
+                    .stars-inner::before {
+                        content: "\e90b \e90b \e90b \e90b \e90b";
+                        color: #87D147;
+                        font-weight: 900;
+                    }
+                }
+            }
+            
+        }
+
+    }
+
+    .skills {
+
+        padding: 0rem 1rem;
+        margin-top: 80px;
+        margin-bottom: 20px;
+
+        .container {
+            text-align: center;
+
+            h2 {
+                font-size: map-get($sizes, "medium");
+                font-weight: map-get($weights, "semi_bold");
+                margin-bottom: 70px;
+            }
+
+            .skills__list {
+
+                .skills__item {
+                    margin: 0px 46px 74px 46px;
+
+                    .skills__aside {
+
+                        .skills__figure {
+                            width: 98px;
+                            height: 98px;
+                            margin: auto;
+                            border-radius: 50px;
+                            background: color(grayscale, gray-3);
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+
+                    .skills__header {
+
+                        .skills__name {
+                            font-size: map-get($sizes, "half");
+                            font-weight: map-get($weights, "medium");
+                            margin-top: 52px;
+                            margin-bottom: 12px;
+                        }
+                    }
+
+                    .skills__body {
+
+                        .skills__description {
+                            color: #8e8e8e;
+                            line-height: 30px;
+                            text-align: center;
+                            font-size: map-get($sizes, "base_2");
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .portfolio {
+        padding: 0rem 1rem;
+
+        .portfolio__tittle {
+            font-size: map-get($sizes, "medium");
+            font-weight: map-get($weights, "semi_bold");
+            margin-bottom: 40px;
+        }
+
+        .portfolio__see-more {
+            order: 3;
+            margin-top: 20px;
+            text-align: end;
+
+            .portfolio__link {
+                color: #8e8e8e;
+                font-size: map-get($sizes, "thumb");
+
+                i {
+                    display: none;
+                }
+            }
+        }
+
+        .portfolio__list {
+            order: 2;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .portfolio__item {
+                margin-bottom: 12px;
+                width: 161px;
+                height: 157px;
+            }
+        }
+    }
+
+    .plans {
+        
+        .container {
+            justify-items: center;
+
+            .plans__tittle {
+                font-size: map-get($sizes, "medium");
+                font-weight: map-get($weights, "semi_bold");
+                margin-bottom: 60px;
+            }
+    
+            .plans__card {
+                width: 335px;
+                height: 500px;
+                background: color(grayscale, white);
+                box-shadow: 0px 20px 40px rgba(255, 115, 21, 0.1);
+                border-radius: 15px;
+                margin-bottom: 64px;
+    
+                .plans__header {
+    
+                    .plans__card-tittle {
+                        width: 335px;
+                        height: 66px;
+                        background: rgba(255, 155, 112, 1);
+                        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+                        border-radius: 15px 15px 0px 0px;
+                        color: #fff;
+                        font-size: map-get($sizes, "half");
+                        font-weight: map-get($weights, "semi_bold");
+                        display: flex;
+                        align-items: flex-end;
+                        justify-content: center;
+                    }
+    
+                    .plans__price {
+                        padding: 30px 34px 5px 34px;
+                        text-align: center;
+    
+                        p {
+                            font-size: map-get($sizes, "medium");
+                            font-weight: map-get($weights, "extra_bold");
+    
+                            .hour {
+                                font-size: map-get($sizes, "small_2");
+                                font-weight: map-get($weights, "regular");
+                                color: color(grayscale, gray-5);
+                            }
+                        }
+                        
+                    }
+                }
+    
+                .plans__content {
+                    padding: 0px 50px 24px 50px;
+                    font-size: map-get($sizes, "small");
+    
+                    .plans__features {
+    
+                        li:nth-child(-n+7) {
+                            border-bottom: 0.5px solid color(grayscale, gray-3);
+                        }
+                        .plans__include {
+                            font-weight: map-get($weights, "medium");
+                            margin: 9px 0px;
+    
+                            .icon-check {
+                                color: color(primary, orange-1);
+                            }
+                        }
+    
+                        .plans__not-include {
+                            margin: 9px 0px;
+                            color: color(grayscale, gray-5);
+                        }
+                    }
+                }
+            }
+        }
+        
+
+        
+    }
+    
+}
+
+
+
+
+.presentation__image {
+    display: none;
+}

@@ -6,12 +6,12 @@
 // Importación de iconos
 // ==========================================================================
 @font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?bzwkye');
-    src:  url('../fonts/icomoon.eot?bzwkye#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?bzwkye') format('truetype'),
-      url('../fonts/icomoon.woff?bzwkye') format('woff'),
-      url('../fonts/icomoon.svg?bzwkye#icomoon') format('svg');
+    font-family: 'iconFont';
+    src:  url('../fonts/iconFont/iconFont.eot?yx58cb');
+    src:  url('../fonts/iconFont/iconFont.eot?yx58cb#iefix') format('embedded-opentype'),
+      url('../fonts/iconFont/iconFont.ttf?yx58cb') format('truetype'),
+      url('../fonts/iconFont/iconFont.woff?yx58cb') format('woff'),
+      url('../fonts/iconFont/iconFont.svg?yx58cb#iconFont') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -19,7 +19,7 @@
   
   [class^="icon-"], [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
+    font-family: 'iconFont' !important;
     speak: never;
     font-style: normal;
     font-weight: normal;
