@@ -326,33 +326,28 @@ a.text-link.text-primary-base:hover, button.text-link.text-primary-base:hover {
   color: #FF4C29;
 }
 /* line 67, ../scss/base/_links.scss */
-a.button-round, button.button-round {
-  padding: 14px 17px;
-  border-radius: 35px;
-}
-/* line 71, ../scss/base/_links.scss */
-a.button-round.button-round-blue, button.button-round.button-round-blue {
+a.button-round-blue, button.button-round-blue {
   background: #728CF7;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
-a.button-round.button-round-blue:hover, button.button-round.button-round-blue:hover {
+a.button-round-blue:hover, button.button-round-blue:hover {
   background: #5070f5;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
-a.button-round.button-round-blue:focus, button.button-round.button-round-blue:focus {
+a.button-round-blue:focus, button.button-round-blue:focus {
   outline: 0;
   box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
-a.button-round.button-round-blue:active, button.button-round.button-round-blue:active {
+a.button-round-blue:active, button.button-round-blue:active {
   background: #4265f4;
 }
 /* line 81, ../scss/config/_mixins.scss */
-a.button-round.button-round-blue.disabled, a.button-round.button-round-blue:disabled, button.button-round.button-round-blue.disabled, button.button-round.button-round-blue:disabled {
+a.button-round-blue.disabled, a.button-round-blue:disabled, button.button-round-blue.disabled, button.button-round-blue:disabled {
   opacity: 0.55;
   color: #666666;
   background: #ffffff;
@@ -361,36 +356,36 @@ a.button-round.button-round-blue.disabled, a.button-round.button-round-blue:disa
   cursor: auto;
 }
 /* line 89, ../scss/config/_mixins.scss */
-a.button-round.button-round-blue.disabled:hover, a.button-round.button-round-blue:disabled:hover, button.button-round.button-round-blue.disabled:hover, button.button-round.button-round-blue:disabled:hover {
+a.button-round-blue.disabled:hover, a.button-round-blue:disabled:hover, button.button-round-blue.disabled:hover, button.button-round-blue:disabled:hover {
   background: #ffffff;
 }
 /* line 92, ../scss/config/_mixins.scss */
-a.button-round.button-round-blue.disabled:focus, a.button-round.button-round-blue:disabled:focus, button.button-round.button-round-blue.disabled:focus, button.button-round.button-round-blue:disabled:focus {
+a.button-round-blue.disabled:focus, a.button-round-blue:disabled:focus, button.button-round-blue.disabled:focus, button.button-round-blue:disabled:focus {
   box-shadow: none;
 }
-/* line 74, ../scss/base/_links.scss */
-a.button-round.button-round-magenta, button.button-round.button-round-magenta {
+/* line 70, ../scss/base/_links.scss */
+a.button-round-magenta, button.button-round-magenta {
   background: #E17094;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
-a.button-round.button-round-magenta:hover, button.button-round.button-round-magenta:hover {
+a.button-round-magenta:hover, button.button-round-magenta:hover {
   background: #db527e;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
-a.button-round.button-round-magenta:focus, button.button-round.button-round-magenta:focus {
+a.button-round-magenta:focus, button.button-round-magenta:focus {
   outline: 0;
   box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
-a.button-round.button-round-magenta:active, button.button-round.button-round-magenta:active {
+a.button-round-magenta:active, button.button-round-magenta:active {
   background: #d84674;
 }
 /* line 81, ../scss/config/_mixins.scss */
-a.button-round.button-round-magenta.disabled, a.button-round.button-round-magenta:disabled, button.button-round.button-round-magenta.disabled, button.button-round.button-round-magenta:disabled {
+a.button-round-magenta.disabled, a.button-round-magenta:disabled, button.button-round-magenta.disabled, button.button-round-magenta:disabled {
   opacity: 0.55;
   color: #666666;
   background: #ffffff;
@@ -399,36 +394,36 @@ a.button-round.button-round-magenta.disabled, a.button-round.button-round-magent
   cursor: auto;
 }
 /* line 89, ../scss/config/_mixins.scss */
-a.button-round.button-round-magenta.disabled:hover, a.button-round.button-round-magenta:disabled:hover, button.button-round.button-round-magenta.disabled:hover, button.button-round.button-round-magenta:disabled:hover {
+a.button-round-magenta.disabled:hover, a.button-round-magenta:disabled:hover, button.button-round-magenta.disabled:hover, button.button-round-magenta:disabled:hover {
   background: #ffffff;
 }
 /* line 92, ../scss/config/_mixins.scss */
-a.button-round.button-round-magenta.disabled:focus, a.button-round.button-round-magenta:disabled:focus, button.button-round.button-round-magenta.disabled:focus, button.button-round.button-round-magenta:disabled:focus {
+a.button-round-magenta.disabled:focus, a.button-round-magenta:disabled:focus, button.button-round-magenta.disabled:focus, button.button-round-magenta:disabled:focus {
   box-shadow: none;
 }
-/* line 77, ../scss/base/_links.scss */
-a.button-round.button-round-cyan, button.button-round.button-round-cyan {
+/* line 73, ../scss/base/_links.scss */
+a.button-round-cyan, button.button-round-cyan {
   background: #68AAF3;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
-a.button-round.button-round-cyan:hover, button.button-round.button-round-cyan:hover {
+a.button-round-cyan:hover, button.button-round-cyan:hover {
   background: #4797f0;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
-a.button-round.button-round-cyan:focus, button.button-round.button-round-cyan:focus {
+a.button-round-cyan:focus, button.button-round-cyan:focus {
   outline: 0;
   box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
-a.button-round.button-round-cyan:active, button.button-round.button-round-cyan:active {
+a.button-round-cyan:active, button.button-round-cyan:active {
   background: #398fef;
 }
 /* line 81, ../scss/config/_mixins.scss */
-a.button-round.button-round-cyan.disabled, a.button-round.button-round-cyan:disabled, button.button-round.button-round-cyan.disabled, button.button-round.button-round-cyan:disabled {
+a.button-round-cyan.disabled, a.button-round-cyan:disabled, button.button-round-cyan.disabled, button.button-round-cyan:disabled {
   opacity: 0.55;
   color: #666666;
   background: #ffffff;
@@ -437,36 +432,36 @@ a.button-round.button-round-cyan.disabled, a.button-round.button-round-cyan:disa
   cursor: auto;
 }
 /* line 89, ../scss/config/_mixins.scss */
-a.button-round.button-round-cyan.disabled:hover, a.button-round.button-round-cyan:disabled:hover, button.button-round.button-round-cyan.disabled:hover, button.button-round.button-round-cyan:disabled:hover {
+a.button-round-cyan.disabled:hover, a.button-round-cyan:disabled:hover, button.button-round-cyan.disabled:hover, button.button-round-cyan:disabled:hover {
   background: #ffffff;
 }
 /* line 92, ../scss/config/_mixins.scss */
-a.button-round.button-round-cyan.disabled:focus, a.button-round.button-round-cyan:disabled:focus, button.button-round.button-round-cyan.disabled:focus, button.button-round.button-round-cyan:disabled:focus {
+a.button-round-cyan.disabled:focus, a.button-round-cyan:disabled:focus, button.button-round-cyan.disabled:focus, button.button-round-cyan:disabled:focus {
   box-shadow: none;
 }
-/* line 80, ../scss/base/_links.scss */
-a.button-round.button-round-orange, button.button-round.button-round-orange {
+/* line 76, ../scss/base/_links.scss */
+a.button-round-orange, button.button-round-orange {
   background: #FF9B70;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
-a.button-round.button-round-orange:hover, button.button-round.button-round-orange:hover {
+a.button-round-orange:hover, button.button-round-orange:hover {
   background: #ff824c;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
-a.button-round.button-round-orange:focus, button.button-round.button-round-orange:focus {
+a.button-round-orange:focus, button.button-round-orange:focus {
   outline: 0;
   box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
-a.button-round.button-round-orange:active, button.button-round.button-round-orange:active {
+a.button-round-orange:active, button.button-round-orange:active {
   background: #ff773d;
 }
 /* line 81, ../scss/config/_mixins.scss */
-a.button-round.button-round-orange.disabled, a.button-round.button-round-orange:disabled, button.button-round.button-round-orange.disabled, button.button-round.button-round-orange:disabled {
+a.button-round-orange.disabled, a.button-round-orange:disabled, button.button-round-orange.disabled, button.button-round-orange:disabled {
   opacity: 0.55;
   color: #666666;
   background: #ffffff;
@@ -475,43 +470,75 @@ a.button-round.button-round-orange.disabled, a.button-round.button-round-orange:
   cursor: auto;
 }
 /* line 89, ../scss/config/_mixins.scss */
-a.button-round.button-round-orange.disabled:hover, a.button-round.button-round-orange:disabled:hover, button.button-round.button-round-orange.disabled:hover, button.button-round.button-round-orange:disabled:hover {
+a.button-round-orange.disabled:hover, a.button-round-orange:disabled:hover, button.button-round-orange.disabled:hover, button.button-round-orange:disabled:hover {
   background: #ffffff;
 }
 /* line 92, ../scss/config/_mixins.scss */
-a.button-round.button-round-orange.disabled:focus, a.button-round.button-round-orange:disabled:focus, button.button-round.button-round-orange.disabled:focus, button.button-round.button-round-orange:disabled:focus {
+a.button-round-orange.disabled:focus, a.button-round-orange:disabled:focus, button.button-round-orange.disabled:focus, button.button-round-orange:disabled:focus {
   box-shadow: none;
 }
-/* line 85, ../scss/base/_links.scss */
-a.button-primary, button.button-primary {
-  font-size: 1.8rem;
-  font-weight: 500;
-  padding: 15px 15px;
-  border-radius: 10px;
+/* line 79, ../scss/base/_links.scss */
+a.button-round-white, button.button-round-white {
+  background: #ffffff;
+  color: #666666;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.09);
 }
-/* line 91, ../scss/base/_links.scss */
-a.button-primary.button-primary-red, button.button-primary.button-primary-red {
+/* line 68, ../scss/config/_mixins.scss */
+a.button-round-white:hover, button.button-round-white:hover {
+  background: #ededed;
+  transition: background 0.2s ease;
+  text-decoration: none;
+}
+/* line 73, ../scss/config/_mixins.scss */
+a.button-round-white:focus, button.button-round-white:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
+  text-decoration: none;
+}
+/* line 78, ../scss/config/_mixins.scss */
+a.button-round-white:active, button.button-round-white:active {
+  background: #e6e6e6;
+}
+/* line 81, ../scss/config/_mixins.scss */
+a.button-round-white.disabled, a.button-round-white:disabled, button.button-round-white.disabled, button.button-round-white:disabled {
+  opacity: 0.55;
+  color: #666666;
+  background: #ffffff;
+  border: 1px solid #666666;
+  box-shadow: none;
+  cursor: auto;
+}
+/* line 89, ../scss/config/_mixins.scss */
+a.button-round-white.disabled:hover, a.button-round-white:disabled:hover, button.button-round-white.disabled:hover, button.button-round-white:disabled:hover {
+  background: #ffffff;
+}
+/* line 92, ../scss/config/_mixins.scss */
+a.button-round-white.disabled:focus, a.button-round-white:disabled:focus, button.button-round-white.disabled:focus, button.button-round-white:disabled:focus {
+  box-shadow: none;
+}
+/* line 84, ../scss/base/_links.scss */
+a.button-primary-red, button.button-primary-red {
   background: #FF2950;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red:hover, button.button-primary.button-primary-red:hover {
+a.button-primary-red:hover, button.button-primary-red:hover {
   background: #ff0533;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red:focus, button.button-primary.button-primary-red:focus {
+a.button-primary-red:focus, button.button-primary-red:focus {
   outline: 0;
   box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red:active, button.button-primary.button-primary-red:active {
+a.button-primary-red:active, button.button-primary-red:active {
   background: #f5002d;
 }
 /* line 81, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.disabled, a.button-primary.button-primary-red:disabled, button.button-primary.button-primary-red.disabled, button.button-primary.button-primary-red:disabled {
+a.button-primary-red.disabled, a.button-primary-red:disabled, button.button-primary-red.disabled, button.button-primary-red:disabled {
   opacity: 0.55;
   color: #666666;
   background: #ffffff;
@@ -520,37 +547,37 @@ a.button-primary.button-primary-red.disabled, a.button-primary.button-primary-re
   cursor: auto;
 }
 /* line 89, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.disabled:hover, a.button-primary.button-primary-red:disabled:hover, button.button-primary.button-primary-red.disabled:hover, button.button-primary.button-primary-red:disabled:hover {
+a.button-primary-red.disabled:hover, a.button-primary-red:disabled:hover, button.button-primary-red.disabled:hover, button.button-primary-red:disabled:hover {
   background: #ffffff;
 }
 /* line 92, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.disabled:focus, a.button-primary.button-primary-red:disabled:focus, button.button-primary.button-primary-red.disabled:focus, button.button-primary.button-primary-red:disabled:focus {
+a.button-primary-red.disabled:focus, a.button-primary-red:disabled:focus, button.button-primary-red.disabled:focus, button.button-primary-red:disabled:focus {
   box-shadow: none;
 }
-/* line 93, ../scss/base/_links.scss */
-a.button-primary.button-primary-red.outline, button.button-primary.button-primary-red.outline {
+/* line 86, ../scss/base/_links.scss */
+a.button-primary-red.outline, button.button-primary-red.outline {
   background: transparent;
   color: #4A4A4A;
   border: 0.13rem solid #FF2950;
 }
 /* line 68, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline:hover, button.button-primary.button-primary-red.outline:hover {
+a.button-primary-red.outline:hover, button.button-primary-red.outline:hover {
   background: transparent;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline:focus, button.button-primary.button-primary-red.outline:focus {
+a.button-primary-red.outline:focus, button.button-primary-red.outline:focus {
   outline: 0;
   box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline:active, button.button-primary.button-primary-red.outline:active {
+a.button-primary-red.outline:active, button.button-primary-red.outline:active {
   background: transparent;
 }
 /* line 81, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline.disabled, a.button-primary.button-primary-red.outline:disabled, button.button-primary.button-primary-red.outline.disabled, button.button-primary.button-primary-red.outline:disabled {
+a.button-primary-red.outline.disabled, a.button-primary-red.outline:disabled, button.button-primary-red.outline.disabled, button.button-primary-red.outline:disabled {
   opacity: 0.55;
   color: #666666;
   background: #ffffff;
@@ -559,36 +586,36 @@ a.button-primary.button-primary-red.outline.disabled, a.button-primary.button-pr
   cursor: auto;
 }
 /* line 89, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline.disabled:hover, a.button-primary.button-primary-red.outline:disabled:hover, button.button-primary.button-primary-red.outline.disabled:hover, button.button-primary.button-primary-red.outline:disabled:hover {
+a.button-primary-red.outline.disabled:hover, a.button-primary-red.outline:disabled:hover, button.button-primary-red.outline.disabled:hover, button.button-primary-red.outline:disabled:hover {
   background: #ffffff;
 }
 /* line 92, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline.disabled:focus, a.button-primary.button-primary-red.outline:disabled:focus, button.button-primary.button-primary-red.outline.disabled:focus, button.button-primary.button-primary-red.outline:disabled:focus {
+a.button-primary-red.outline.disabled:focus, a.button-primary-red.outline:disabled:focus, button.button-primary-red.outline.disabled:focus, button.button-primary-red.outline:disabled:focus {
   box-shadow: none;
 }
-/* line 96, ../scss/base/_links.scss */
-a.button-primary.button-primary-red.outline:hover, a.button-primary.button-primary-red.outline:active, button.button-primary.button-primary-red.outline:hover, button.button-primary.button-primary-red.outline:active {
+/* line 89, ../scss/base/_links.scss */
+a.button-primary-red.outline:hover, a.button-primary-red.outline:active, button.button-primary-red.outline:hover, button.button-primary-red.outline:active {
   background: #FF2950;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline:hover:hover, a.button-primary.button-primary-red.outline:active:hover, button.button-primary.button-primary-red.outline:hover:hover, button.button-primary.button-primary-red.outline:active:hover {
+a.button-primary-red.outline:hover:hover, a.button-primary-red.outline:active:hover, button.button-primary-red.outline:hover:hover, button.button-primary-red.outline:active:hover {
   background: #ff0533;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline:hover:focus, a.button-primary.button-primary-red.outline:active:focus, button.button-primary.button-primary-red.outline:hover:focus, button.button-primary.button-primary-red.outline:active:focus {
+a.button-primary-red.outline:hover:focus, a.button-primary-red.outline:active:focus, button.button-primary-red.outline:hover:focus, button.button-primary-red.outline:active:focus {
   outline: 0;
   box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline:hover:active, a.button-primary.button-primary-red.outline:active:active, button.button-primary.button-primary-red.outline:hover:active, button.button-primary.button-primary-red.outline:active:active {
+a.button-primary-red.outline:hover:active, a.button-primary-red.outline:active:active, button.button-primary-red.outline:hover:active, button.button-primary-red.outline:active:active {
   background: #f5002d;
 }
 /* line 81, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline:hover.disabled, a.button-primary.button-primary-red.outline:hover:disabled, a.button-primary.button-primary-red.outline:active.disabled, a.button-primary.button-primary-red.outline:active:disabled, button.button-primary.button-primary-red.outline:hover.disabled, button.button-primary.button-primary-red.outline:hover:disabled, button.button-primary.button-primary-red.outline:active.disabled, button.button-primary.button-primary-red.outline:active:disabled {
+a.button-primary-red.outline:hover.disabled, a.button-primary-red.outline:hover:disabled, a.button-primary-red.outline:active.disabled, a.button-primary-red.outline:active:disabled, button.button-primary-red.outline:hover.disabled, button.button-primary-red.outline:hover:disabled, button.button-primary-red.outline:active.disabled, button.button-primary-red.outline:active:disabled {
   opacity: 0.55;
   color: #666666;
   background: #ffffff;
@@ -597,36 +624,36 @@ a.button-primary.button-primary-red.outline:hover.disabled, a.button-primary.but
   cursor: auto;
 }
 /* line 89, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline:hover.disabled:hover, a.button-primary.button-primary-red.outline:hover:disabled:hover, a.button-primary.button-primary-red.outline:active.disabled:hover, a.button-primary.button-primary-red.outline:active:disabled:hover, button.button-primary.button-primary-red.outline:hover.disabled:hover, button.button-primary.button-primary-red.outline:hover:disabled:hover, button.button-primary.button-primary-red.outline:active.disabled:hover, button.button-primary.button-primary-red.outline:active:disabled:hover {
+a.button-primary-red.outline:hover.disabled:hover, a.button-primary-red.outline:hover:disabled:hover, a.button-primary-red.outline:active.disabled:hover, a.button-primary-red.outline:active:disabled:hover, button.button-primary-red.outline:hover.disabled:hover, button.button-primary-red.outline:hover:disabled:hover, button.button-primary-red.outline:active.disabled:hover, button.button-primary-red.outline:active:disabled:hover {
   background: #ffffff;
 }
 /* line 92, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-red.outline:hover.disabled:focus, a.button-primary.button-primary-red.outline:hover:disabled:focus, a.button-primary.button-primary-red.outline:active.disabled:focus, a.button-primary.button-primary-red.outline:active:disabled:focus, button.button-primary.button-primary-red.outline:hover.disabled:focus, button.button-primary.button-primary-red.outline:hover:disabled:focus, button.button-primary.button-primary-red.outline:active.disabled:focus, button.button-primary.button-primary-red.outline:active:disabled:focus {
+a.button-primary-red.outline:hover.disabled:focus, a.button-primary-red.outline:hover:disabled:focus, a.button-primary-red.outline:active.disabled:focus, a.button-primary-red.outline:active:disabled:focus, button.button-primary-red.outline:hover.disabled:focus, button.button-primary-red.outline:hover:disabled:focus, button.button-primary-red.outline:active.disabled:focus, button.button-primary-red.outline:active:disabled:focus {
   box-shadow: none;
 }
-/* line 102, ../scss/base/_links.scss */
-a.button-primary.button-primary-orange, button.button-primary.button-primary-orange {
+/* line 95, ../scss/base/_links.scss */
+a.button-primary-orange, button.button-primary-orange {
   background: #FF4C29;
   color: #ffffff;
 }
 /* line 68, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange:hover, button.button-primary.button-primary-orange:hover {
+a.button-primary-orange:hover, button.button-primary-orange:hover {
   background: #ff2e05;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange:focus, button.button-primary.button-primary-orange:focus {
+a.button-primary-orange:focus, button.button-primary-orange:focus {
   outline: 0;
   box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange:active, button.button-primary.button-primary-orange:active {
+a.button-primary-orange:active, button.button-primary-orange:active {
   background: #f52800;
 }
 /* line 81, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.disabled, a.button-primary.button-primary-orange:disabled, button.button-primary.button-primary-orange.disabled, button.button-primary.button-primary-orange:disabled {
+a.button-primary-orange.disabled, a.button-primary-orange:disabled, button.button-primary-orange.disabled, button.button-primary-orange:disabled {
   opacity: 0.55;
   color: #666666;
   background: #ffffff;
@@ -635,37 +662,37 @@ a.button-primary.button-primary-orange.disabled, a.button-primary.button-primary
   cursor: auto;
 }
 /* line 89, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.disabled:hover, a.button-primary.button-primary-orange:disabled:hover, button.button-primary.button-primary-orange.disabled:hover, button.button-primary.button-primary-orange:disabled:hover {
+a.button-primary-orange.disabled:hover, a.button-primary-orange:disabled:hover, button.button-primary-orange.disabled:hover, button.button-primary-orange:disabled:hover {
   background: #ffffff;
 }
 /* line 92, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.disabled:focus, a.button-primary.button-primary-orange:disabled:focus, button.button-primary.button-primary-orange.disabled:focus, button.button-primary.button-primary-orange:disabled:focus {
+a.button-primary-orange.disabled:focus, a.button-primary-orange:disabled:focus, button.button-primary-orange.disabled:focus, button.button-primary-orange:disabled:focus {
   box-shadow: none;
 }
-/* line 104, ../scss/base/_links.scss */
-a.button-primary.button-primary-orange.outline, button.button-primary.button-primary-orange.outline {
+/* line 97, ../scss/base/_links.scss */
+a.button-primary-orange.outline, button.button-primary-orange.outline {
   background: transparent;
   color: #4A4A4A;
   border: 0.13rem solid #FF4C29;
 }
 /* line 68, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline:hover, button.button-primary.button-primary-orange.outline:hover {
+a.button-primary-orange.outline:hover, button.button-primary-orange.outline:hover {
   background: transparent;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline:focus, button.button-primary.button-primary-orange.outline:focus {
+a.button-primary-orange.outline:focus, button.button-primary-orange.outline:focus {
   outline: 0;
   box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline:active, button.button-primary.button-primary-orange.outline:active {
+a.button-primary-orange.outline:active, button.button-primary-orange.outline:active {
   background: transparent;
 }
 /* line 81, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline.disabled, a.button-primary.button-primary-orange.outline:disabled, button.button-primary.button-primary-orange.outline.disabled, button.button-primary.button-primary-orange.outline:disabled {
+a.button-primary-orange.outline.disabled, a.button-primary-orange.outline:disabled, button.button-primary-orange.outline.disabled, button.button-primary-orange.outline:disabled {
   opacity: 0.55;
   color: #666666;
   background: #ffffff;
@@ -674,36 +701,36 @@ a.button-primary.button-primary-orange.outline.disabled, a.button-primary.button
   cursor: auto;
 }
 /* line 89, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline.disabled:hover, a.button-primary.button-primary-orange.outline:disabled:hover, button.button-primary.button-primary-orange.outline.disabled:hover, button.button-primary.button-primary-orange.outline:disabled:hover {
+a.button-primary-orange.outline.disabled:hover, a.button-primary-orange.outline:disabled:hover, button.button-primary-orange.outline.disabled:hover, button.button-primary-orange.outline:disabled:hover {
   background: #ffffff;
 }
 /* line 92, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline.disabled:focus, a.button-primary.button-primary-orange.outline:disabled:focus, button.button-primary.button-primary-orange.outline.disabled:focus, button.button-primary.button-primary-orange.outline:disabled:focus {
+a.button-primary-orange.outline.disabled:focus, a.button-primary-orange.outline:disabled:focus, button.button-primary-orange.outline.disabled:focus, button.button-primary-orange.outline:disabled:focus {
   box-shadow: none;
 }
-/* line 107, ../scss/base/_links.scss */
-a.button-primary.button-primary-orange.outline:hover, a.button-primary.button-primary-orange.outline:active, button.button-primary.button-primary-orange.outline:hover, button.button-primary.button-primary-orange.outline:active {
-  background: #FF4C29;
-  color: #ffffff;
+/* line 100, ../scss/base/_links.scss */
+a.button-primary-orange.outline:hover, a.button-primary-orange.outline:active, button.button-primary-orange.outline:hover, button.button-primary-orange.outline:active {
+  background: #ffffff;
+  color: #000000;
 }
 /* line 68, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline:hover:hover, a.button-primary.button-primary-orange.outline:active:hover, button.button-primary.button-primary-orange.outline:hover:hover, button.button-primary.button-primary-orange.outline:active:hover {
-  background: #ff2e05;
+a.button-primary-orange.outline:hover:hover, a.button-primary-orange.outline:active:hover, button.button-primary-orange.outline:hover:hover, button.button-primary-orange.outline:active:hover {
+  background: #ededed;
   transition: background 0.2s ease;
   text-decoration: none;
 }
 /* line 73, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline:hover:focus, a.button-primary.button-primary-orange.outline:active:focus, button.button-primary.button-primary-orange.outline:hover:focus, button.button-primary.button-primary-orange.outline:active:focus {
+a.button-primary-orange.outline:hover:focus, a.button-primary-orange.outline:active:focus, button.button-primary-orange.outline:hover:focus, button.button-primary-orange.outline:active:focus {
   outline: 0;
   box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
   text-decoration: none;
 }
 /* line 78, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline:hover:active, a.button-primary.button-primary-orange.outline:active:active, button.button-primary.button-primary-orange.outline:hover:active, button.button-primary.button-primary-orange.outline:active:active {
-  background: #f52800;
+a.button-primary-orange.outline:hover:active, a.button-primary-orange.outline:active:active, button.button-primary-orange.outline:hover:active, button.button-primary-orange.outline:active:active {
+  background: #e6e6e6;
 }
 /* line 81, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline:hover.disabled, a.button-primary.button-primary-orange.outline:hover:disabled, a.button-primary.button-primary-orange.outline:active.disabled, a.button-primary.button-primary-orange.outline:active:disabled, button.button-primary.button-primary-orange.outline:hover.disabled, button.button-primary.button-primary-orange.outline:hover:disabled, button.button-primary.button-primary-orange.outline:active.disabled, button.button-primary.button-primary-orange.outline:active:disabled {
+a.button-primary-orange.outline:hover.disabled, a.button-primary-orange.outline:hover:disabled, a.button-primary-orange.outline:active.disabled, a.button-primary-orange.outline:active:disabled, button.button-primary-orange.outline:hover.disabled, button.button-primary-orange.outline:hover:disabled, button.button-primary-orange.outline:active.disabled, button.button-primary-orange.outline:active:disabled {
   opacity: 0.55;
   color: #666666;
   background: #ffffff;
@@ -712,12 +739,151 @@ a.button-primary.button-primary-orange.outline:hover.disabled, a.button-primary.
   cursor: auto;
 }
 /* line 89, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline:hover.disabled:hover, a.button-primary.button-primary-orange.outline:hover:disabled:hover, a.button-primary.button-primary-orange.outline:active.disabled:hover, a.button-primary.button-primary-orange.outline:active:disabled:hover, button.button-primary.button-primary-orange.outline:hover.disabled:hover, button.button-primary.button-primary-orange.outline:hover:disabled:hover, button.button-primary.button-primary-orange.outline:active.disabled:hover, button.button-primary.button-primary-orange.outline:active:disabled:hover {
+a.button-primary-orange.outline:hover.disabled:hover, a.button-primary-orange.outline:hover:disabled:hover, a.button-primary-orange.outline:active.disabled:hover, a.button-primary-orange.outline:active:disabled:hover, button.button-primary-orange.outline:hover.disabled:hover, button.button-primary-orange.outline:hover:disabled:hover, button.button-primary-orange.outline:active.disabled:hover, button.button-primary-orange.outline:active:disabled:hover {
   background: #ffffff;
 }
 /* line 92, ../scss/config/_mixins.scss */
-a.button-primary.button-primary-orange.outline:hover.disabled:focus, a.button-primary.button-primary-orange.outline:hover:disabled:focus, a.button-primary.button-primary-orange.outline:active.disabled:focus, a.button-primary.button-primary-orange.outline:active:disabled:focus, button.button-primary.button-primary-orange.outline:hover.disabled:focus, button.button-primary.button-primary-orange.outline:hover:disabled:focus, button.button-primary.button-primary-orange.outline:active.disabled:focus, button.button-primary.button-primary-orange.outline:active:disabled:focus {
+a.button-primary-orange.outline:hover.disabled:focus, a.button-primary-orange.outline:hover:disabled:focus, a.button-primary-orange.outline:active.disabled:focus, a.button-primary-orange.outline:active:disabled:focus, button.button-primary-orange.outline:hover.disabled:focus, button.button-primary-orange.outline:hover:disabled:focus, button.button-primary-orange.outline:active.disabled:focus, button.button-primary-orange.outline:active:disabled:focus {
   box-shadow: none;
+}
+/* line 106, ../scss/base/_links.scss */
+a.button-primary-white, button.button-primary-white {
+  background: #ffffff;
+  color: #000000;
+}
+/* line 68, ../scss/config/_mixins.scss */
+a.button-primary-white:hover, button.button-primary-white:hover {
+  background: #ededed;
+  transition: background 0.2s ease;
+  text-decoration: none;
+}
+/* line 73, ../scss/config/_mixins.scss */
+a.button-primary-white:focus, button.button-primary-white:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
+  text-decoration: none;
+}
+/* line 78, ../scss/config/_mixins.scss */
+a.button-primary-white:active, button.button-primary-white:active {
+  background: #e6e6e6;
+}
+/* line 81, ../scss/config/_mixins.scss */
+a.button-primary-white.disabled, a.button-primary-white:disabled, button.button-primary-white.disabled, button.button-primary-white:disabled {
+  opacity: 0.55;
+  color: #666666;
+  background: #ffffff;
+  border: 1px solid #666666;
+  box-shadow: none;
+  cursor: auto;
+}
+/* line 89, ../scss/config/_mixins.scss */
+a.button-primary-white.disabled:hover, a.button-primary-white:disabled:hover, button.button-primary-white.disabled:hover, button.button-primary-white:disabled:hover {
+  background: #ffffff;
+}
+/* line 92, ../scss/config/_mixins.scss */
+a.button-primary-white.disabled:focus, a.button-primary-white:disabled:focus, button.button-primary-white.disabled:focus, button.button-primary-white:disabled:focus {
+  box-shadow: none;
+}
+/* line 108, ../scss/base/_links.scss */
+a.button-primary-white.outline, button.button-primary-white.outline {
+  background: transparent;
+  color: #4A4A4A;
+  border: 0.13rem solid #ffffff;
+}
+/* line 68, ../scss/config/_mixins.scss */
+a.button-primary-white.outline:hover, button.button-primary-white.outline:hover {
+  background: transparent;
+  transition: background 0.2s ease;
+  text-decoration: none;
+}
+/* line 73, ../scss/config/_mixins.scss */
+a.button-primary-white.outline:focus, button.button-primary-white.outline:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
+  text-decoration: none;
+}
+/* line 78, ../scss/config/_mixins.scss */
+a.button-primary-white.outline:active, button.button-primary-white.outline:active {
+  background: transparent;
+}
+/* line 81, ../scss/config/_mixins.scss */
+a.button-primary-white.outline.disabled, a.button-primary-white.outline:disabled, button.button-primary-white.outline.disabled, button.button-primary-white.outline:disabled {
+  opacity: 0.55;
+  color: #666666;
+  background: #ffffff;
+  border: 1px solid #666666;
+  box-shadow: none;
+  cursor: auto;
+}
+/* line 89, ../scss/config/_mixins.scss */
+a.button-primary-white.outline.disabled:hover, a.button-primary-white.outline:disabled:hover, button.button-primary-white.outline.disabled:hover, button.button-primary-white.outline:disabled:hover {
+  background: #ffffff;
+}
+/* line 92, ../scss/config/_mixins.scss */
+a.button-primary-white.outline.disabled:focus, a.button-primary-white.outline:disabled:focus, button.button-primary-white.outline.disabled:focus, button.button-primary-white.outline:disabled:focus {
+  box-shadow: none;
+}
+/* line 111, ../scss/base/_links.scss */
+a.button-primary-white.outline:hover, a.button-primary-white.outline:active, button.button-primary-white.outline:hover, button.button-primary-white.outline:active {
+  background: #ffffff;
+  color: #000000;
+}
+/* line 68, ../scss/config/_mixins.scss */
+a.button-primary-white.outline:hover:hover, a.button-primary-white.outline:active:hover, button.button-primary-white.outline:hover:hover, button.button-primary-white.outline:active:hover {
+  background: #ededed;
+  transition: background 0.2s ease;
+  text-decoration: none;
+}
+/* line 73, ../scss/config/_mixins.scss */
+a.button-primary-white.outline:hover:focus, a.button-primary-white.outline:active:focus, button.button-primary-white.outline:hover:focus, button.button-primary-white.outline:active:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem rgba(255, 115, 21, 0.25);
+  text-decoration: none;
+}
+/* line 78, ../scss/config/_mixins.scss */
+a.button-primary-white.outline:hover:active, a.button-primary-white.outline:active:active, button.button-primary-white.outline:hover:active, button.button-primary-white.outline:active:active {
+  background: #e6e6e6;
+}
+/* line 81, ../scss/config/_mixins.scss */
+a.button-primary-white.outline:hover.disabled, a.button-primary-white.outline:hover:disabled, a.button-primary-white.outline:active.disabled, a.button-primary-white.outline:active:disabled, button.button-primary-white.outline:hover.disabled, button.button-primary-white.outline:hover:disabled, button.button-primary-white.outline:active.disabled, button.button-primary-white.outline:active:disabled {
+  opacity: 0.55;
+  color: #666666;
+  background: #ffffff;
+  border: 1px solid #666666;
+  box-shadow: none;
+  cursor: auto;
+}
+/* line 89, ../scss/config/_mixins.scss */
+a.button-primary-white.outline:hover.disabled:hover, a.button-primary-white.outline:hover:disabled:hover, a.button-primary-white.outline:active.disabled:hover, a.button-primary-white.outline:active:disabled:hover, button.button-primary-white.outline:hover.disabled:hover, button.button-primary-white.outline:hover:disabled:hover, button.button-primary-white.outline:active.disabled:hover, button.button-primary-white.outline:active:disabled:hover {
+  background: #ffffff;
+}
+/* line 92, ../scss/config/_mixins.scss */
+a.button-primary-white.outline:hover.disabled:focus, a.button-primary-white.outline:hover:disabled:focus, a.button-primary-white.outline:active.disabled:focus, a.button-primary-white.outline:active:disabled:focus, button.button-primary-white.outline:hover.disabled:focus, button.button-primary-white.outline:hover:disabled:focus, button.button-primary-white.outline:active.disabled:focus, button.button-primary-white.outline:active:disabled:focus {
+  box-shadow: none;
+}
+/* line 121, ../scss/base/_links.scss */
+a.round-small, button.round-small {
+  padding: 10px 15px;
+  border-radius: 35px;
+}
+/* line 126, ../scss/base/_links.scss */
+a.medium, button.medium {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 15px 15px;
+  border-radius: 10px;
+}
+/* line 133, ../scss/base/_links.scss */
+a.round-medium, button.round-medium {
+  padding: 14px 17px;
+  border-radius: 35px;
+}
+/* line 138, ../scss/base/_links.scss */
+a.large, button.large {
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding: 5px 15px;
+  border-radius: 15px;
 }
 
 /* line 4, ../scss/base/_flexbox.scss */
@@ -1936,31 +2102,33 @@ a.button-primary.button-primary-orange.outline:hover.disabled:focus, a.button-pr
 /* line 1, ../scss/components/_header.scss */
 .header {
   position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 56px;
   z-index: 2000;
   background: #FF7315;
 }
-/* line 8, ../scss/components/_header.scss */
+/* line 10, ../scss/components/_header.scss */
 .header .header__navigate {
   display: flex;
   font-size: 1.8rem;
   justify-content: space-between;
   align-items: center;
 }
-/* line 14, ../scss/components/_header.scss */
+/* line 16, ../scss/components/_header.scss */
 .header .header__navigate .header__logo {
   padding: 15px 20px;
   font-weight: 500;
   color: #ffffff;
 }
-/* line 20, ../scss/components/_header.scss */
+/* line 22, ../scss/components/_header.scss */
 .header .header__navigate .header__toggle {
   order: 3;
   margin-right: 22px;
   color: #ffffff;
 }
-/* line 26, ../scss/components/_header.scss */
+/* line 28, ../scss/components/_header.scss */
 .header .header__navigate .header__list {
   background: #FF7315;
   position: fixed;
@@ -1970,85 +2138,118 @@ a.button-primary.button-primary-orange.outline:hover.disabled:focus, a.button-pr
   overflow-y: auto;
   padding: 30px;
 }
-/* line 35, ../scss/components/_header.scss */
+/* line 37, ../scss/components/_header.scss */
 .header .header__navigate .header__list .header__item {
   margin-bottom: 4rem;
 }
-/* line 38, ../scss/components/_header.scss */
+/* line 40, ../scss/components/_header.scss */
 .header .header__navigate .header__list .header__item .header__link {
   color: #ffffff;
 }
-/* line 40, ../scss/components/_header.scss */
+/* line 42, ../scss/components/_header.scss */
 .header .header__navigate .header__list .header__item .header__link [class^="icon-"], .header .header__navigate .header__list .header__item .header__link [class*=" icon-"] {
   margin-right: 20px;
 }
-/* line 45, ../scss/components/_header.scss */
+/* line 47, ../scss/components/_header.scss */
 .header .header__navigate .header__list .header__item .header__link-name {
   display: inline;
   font-weight: 500;
   line-height: 30px;
 }
-/* line 54, ../scss/components/_header.scss */
+/* line 56, ../scss/components/_header.scss */
 .header .header__navigate .header__flags {
   order: 1;
 }
 
-/* line 60, ../scss/components/_header.scss */
+/* line 62, ../scss/components/_header.scss */
 .menu-hidden {
   left: 100%;
   transition: left 0.5s;
 }
 
-/* line 65, ../scss/components/_header.scss */
+/* line 67, ../scss/components/_header.scss */
 .menu-visible {
   left: 0;
   transition: left 0.5s;
 }
 
+/* line 3, ../scss/components/_footer.scss */
+.footer a {
+  color: #333333;
+}
+/* line 7, ../scss/components/_footer.scss */
+.footer__container {
+  align-items: center;
+  justify-items: center;
+  background: #eeeeee;
+  height: 302px;
+}
+/* line 14, ../scss/components/_footer.scss */
+.footer .grid-12:nth-child(1) {
+  font-size: 1.8rem;
+  order: 1;
+}
+/* line 18, ../scss/components/_footer.scss */
+.footer .grid-12:nth-child(2) {
+  font-size: 1.8rem;
+  font-weight: 500;
+  order: 3;
+}
+/* line 23, ../scss/components/_footer.scss */
+.footer .grid-12:nth-child(3) {
+  font-size: 2rem;
+  order: 2;
+}
+
 /* line 1, ../scss/components/_layout.scss */
+html {
+  scroll-behavior: smooth;
+}
+
+/* line 5, ../scss/components/_layout.scss */
 body {
   background-color: #FAF5F2;
 }
-/* line 4, ../scss/components/_layout.scss */
+/* line 8, ../scss/components/_layout.scss */
 body .presentation {
   padding: 0rem 1rem;
   margin-top: 94px;
   margin-bottom: 109px;
 }
-/* line 12, ../scss/components/_layout.scss */
+/* line 16, ../scss/components/_layout.scss */
 body .presentation .presentation__info p:nth-child(1) {
   font-size: 2.4rem;
 }
-/* line 16, ../scss/components/_layout.scss */
+/* line 20, ../scss/components/_layout.scss */
 body .presentation .presentation__info h1 {
   font-size: 3.2rem;
   font-weight: 600;
   line-height: 62px;
   margin-bottom: 24px;
 }
-/* line 23, ../scss/components/_layout.scss */
+/* line 27, ../scss/components/_layout.scss */
 body .presentation .presentation__info p:nth-child(3), body .presentation .presentation__info p:nth-child(4) {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
-/* line 29, ../scss/components/_layout.scss */
+/* line 33, ../scss/components/_layout.scss */
 body .presentation .presentation__navigate {
   margin-top: 76px;
   margin-bottom: 55px;
 }
-/* line 33, ../scss/components/_layout.scss */
+/* line 37, ../scss/components/_layout.scss */
 body .presentation .presentation__navigate .presentation__list {
   justify-items: center;
 }
-/* line 36, ../scss/components/_layout.scss */
+/* line 40, ../scss/components/_layout.scss */
 body .presentation .presentation__navigate .presentation__list .presentation__follow {
   display: none;
 }
-/* line 42, ../scss/components/_layout.scss */
+/* line 46, ../scss/components/_layout.scss */
 body .presentation .presentation__actions {
   justify-items: center;
 }
-/* line 51, ../scss/components/_layout.scss */
+/* line 55, ../scss/components/_layout.scss */
 body .achievements .card {
   height: 992px;
   padding: 36px 20px;
@@ -2056,75 +2257,75 @@ body .achievements .card {
   color: #ffffff;
   border-radius: 35px;
 }
-/* line 58, ../scss/components/_layout.scss */
+/* line 62, ../scss/components/_layout.scss */
 body .achievements .card .container {
   justify-items: center;
 }
-/* line 62, ../scss/components/_layout.scss */
+/* line 66, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__figure {
   order: 2;
 }
-/* line 66, ../scss/components/_layout.scss */
+/* line 70, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content {
   order: 1;
 }
-/* line 69, ../scss/components/_layout.scss */
+/* line 73, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .grid {
   justify-items: center;
 }
-/* line 72, ../scss/components/_layout.scss */
+/* line 76, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .grid .achievements__numbers {
   text-align: center;
   margin-bottom: 30px;
 }
-/* line 76, ../scss/components/_layout.scss */
+/* line 80, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .grid .achievements__numbers h2 {
   font-size: 4.8rem;
   font-weight: 600;
 }
-/* line 81, ../scss/components/_layout.scss */
+/* line 85, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .grid .achievements__numbers p {
   font-size: 2.4rem;
 }
-/* line 86, ../scss/components/_layout.scss */
+/* line 90, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .grid .achievements__rate {
   text-align: center;
 }
-/* line 89, ../scss/components/_layout.scss */
+/* line 93, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .grid .achievements__rate p {
   margin-top: 32px;
   font-size: 2.4rem;
 }
-/* line 95, ../scss/components/_layout.scss */
+/* line 99, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .grid .achievements__invitation {
   margin-top: 40px;
   margin-bottom: 30px;
 }
-/* line 99, ../scss/components/_layout.scss */
+/* line 103, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .grid .achievements__invitation h2 {
   margin-bottom: 40px;
   font-size: 3.2rem;
   font-weight: 600;
 }
-/* line 105, ../scss/components/_layout.scss */
+/* line 109, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .grid .achievements__invitation p {
   line-height: 45px;
   font-size: 2rem;
 }
-/* line 113, ../scss/components/_layout.scss */
+/* line 117, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .stars-outer {
   font-size: 30px;
   display: inline-block;
   position: relative;
   font-family: 'iconFont';
 }
-/* line 120, ../scss/components/_layout.scss */
+/* line 124, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .stars-outer::before {
   content: "\e90b \e90b \e90b \e90b \e90b";
   color: #FDB688;
   font-weight: 900;
 }
-/* line 126, ../scss/components/_layout.scss */
+/* line 130, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .stars-inner {
   position: absolute;
   top: 0;
@@ -2135,33 +2336,33 @@ body .achievements .card .container .achievements__content .stars-inner {
   font-family: 'iconFont';
   width: 90%;
 }
-/* line 137, ../scss/components/_layout.scss */
+/* line 141, ../scss/components/_layout.scss */
 body .achievements .card .container .achievements__content .stars-inner::before {
   content: "\e90b \e90b \e90b \e90b \e90b";
   color: #87D147;
   font-weight: 900;
 }
-/* line 149, ../scss/components/_layout.scss */
+/* line 153, ../scss/components/_layout.scss */
 body .skills {
   padding: 0rem 1rem;
   margin-top: 80px;
   margin-bottom: 20px;
 }
-/* line 155, ../scss/components/_layout.scss */
+/* line 159, ../scss/components/_layout.scss */
 body .skills .container {
   text-align: center;
 }
-/* line 158, ../scss/components/_layout.scss */
+/* line 162, ../scss/components/_layout.scss */
 body .skills .container h2 {
   font-size: 3.2rem;
   font-weight: 600;
   margin-bottom: 70px;
 }
-/* line 166, ../scss/components/_layout.scss */
+/* line 170, ../scss/components/_layout.scss */
 body .skills .container .skills__list .skills__item {
   margin: 0px 46px 74px 46px;
 }
-/* line 171, ../scss/components/_layout.scss */
+/* line 175, ../scss/components/_layout.scss */
 body .skills .container .skills__list .skills__item .skills__aside .skills__figure {
   width: 98px;
   height: 98px;
@@ -2172,69 +2373,177 @@ body .skills .container .skills__list .skills__item .skills__aside .skills__figu
   justify-content: center;
   align-items: center;
 }
-/* line 185, ../scss/components/_layout.scss */
+/* line 189, ../scss/components/_layout.scss */
 body .skills .container .skills__list .skills__item .skills__header .skills__name {
   font-size: 2.4rem;
   font-weight: 500;
   margin-top: 52px;
   margin-bottom: 12px;
 }
-/* line 195, ../scss/components/_layout.scss */
+/* line 199, ../scss/components/_layout.scss */
 body .skills .container .skills__list .skills__item .skills__body .skills__description {
   color: #8e8e8e;
   line-height: 30px;
   text-align: center;
   font-size: 1.8rem;
 }
-/* line 207, ../scss/components/_layout.scss */
+/* line 211, ../scss/components/_layout.scss */
 body .portfolio {
   padding: 0rem 1rem;
+  margin-bottom: 88px;
 }
-/* line 210, ../scss/components/_layout.scss */
-body .portfolio .portfolio__tittle {
+/* line 215, ../scss/components/_layout.scss */
+body .portfolio .portfolio__title {
   font-size: 3.2rem;
   font-weight: 600;
   margin-bottom: 40px;
 }
-/* line 216, ../scss/components/_layout.scss */
+/* line 221, ../scss/components/_layout.scss */
 body .portfolio .portfolio__see-more {
   order: 3;
   margin-top: 20px;
   text-align: end;
 }
-/* line 221, ../scss/components/_layout.scss */
+/* line 226, ../scss/components/_layout.scss */
 body .portfolio .portfolio__see-more .portfolio__link {
   color: #8e8e8e;
   font-size: 2rem;
 }
-/* line 225, ../scss/components/_layout.scss */
+/* line 230, ../scss/components/_layout.scss */
 body .portfolio .portfolio__see-more .portfolio__link i {
   display: none;
 }
-/* line 231, ../scss/components/_layout.scss */
+/* line 236, ../scss/components/_layout.scss */
 body .portfolio .portfolio__list {
   order: 2;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* line 237, ../scss/components/_layout.scss */
+/* line 242, ../scss/components/_layout.scss */
 body .portfolio .portfolio__list .portfolio__item {
   margin-bottom: 12px;
   width: 161px;
   height: 157px;
 }
-/* line 247, ../scss/components/_layout.scss */
+/* line 250, ../scss/components/_layout.scss */
+body .clients {
+  background-color: #FF7315;
+  height: 557px;
+  margin-bottom: 95px;
+  padding: 24px;
+}
+/* line 256, ../scss/components/_layout.scss */
+body .clients__container {
+  overflow: hidden;
+  overflow-x: scroll;
+}
+/* line 261, ../scss/components/_layout.scss */
+body .clients__title {
+  color: #ffffff;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 60px;
+}
+/* line 268, ../scss/components/_layout.scss */
+body .clients__card:nth-child(-n+1) {
+  margin-right: 82px;
+}
+/* line 272, ../scss/components/_layout.scss */
+body .clients__card {
+  background-color: #ffffff;
+  border-radius: 30px;
+  width: 326px;
+  height: 251px;
+  padding: 24px 20px;
+  align-items: center;
+}
+/* line 280, ../scss/components/_layout.scss */
+body .clients__card p {
+  margin: 0px;
+}
+/* line 285, ../scss/components/_layout.scss */
+body .clients__opinion {
+  grid-area: 4 / 1 / 5 / 13;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+/* line 290, ../scss/components/_layout.scss */
+body .clients__pic {
+  grid-area: 1 / 1 / 3 / 3;
+  margin-right: 20px;
+}
+/* line 294, ../scss/components/_layout.scss */
+body .clients__name {
+  grid-area: 1 / 4 / 2 / 13;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+/* line 299, ../scss/components/_layout.scss */
+body .clients__rol {
+  grid-area: 2 / 4 / 3 / 13;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+/* line 304, ../scss/components/_layout.scss */
+body .clients__rate {
+  grid-area: 3 / 1 / 4 / 3;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+/* line 309, ../scss/components/_layout.scss */
+body .clients__star-rate {
+  grid-area: 3 / 3 / 4 / 13;
+}
+/* line 313, ../scss/components/_layout.scss */
+body .clients__stars-outer {
+  font-size: 2.4rem;
+  display: inline-block;
+  position: relative;
+  font-family: 'iconFont';
+}
+/* line 320, ../scss/components/_layout.scss */
+body .clients__stars-outer::before {
+  content: "\e90b \e90b \e90b \e90b \e90b";
+  color: #ffffff;
+  font-weight: 900;
+}
+/* line 326, ../scss/components/_layout.scss */
+body .clients__stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  font-family: 'iconFont';
+  width: 100%;
+}
+/* line 337, ../scss/components/_layout.scss */
+body .clients__stars-inner::before {
+  content: "\e90b \e90b \e90b \e90b \e90b";
+  color: #FF7315;
+  font-weight: 900;
+}
+/* line 343, ../scss/components/_layout.scss */
+body .clients ::-webkit-scrollbar {
+  display: none;
+}
+/* line 346, ../scss/components/_layout.scss */
+body .plans {
+  margin-bottom: 64px;
+}
+/* line 349, ../scss/components/_layout.scss */
 body .plans .container {
   justify-items: center;
 }
-/* line 250, ../scss/components/_layout.scss */
-body .plans .container .plans__tittle {
+/* line 352, ../scss/components/_layout.scss */
+body .plans .container .plans__title {
   font-size: 3.2rem;
   font-weight: 600;
   margin-bottom: 60px;
 }
-/* line 256, ../scss/components/_layout.scss */
+/* line 358, ../scss/components/_layout.scss */
 body .plans .container .plans__card {
   width: 335px;
   height: 500px;
@@ -2243,8 +2552,8 @@ body .plans .container .plans__card {
   border-radius: 15px;
   margin-bottom: 64px;
 }
-/* line 266, ../scss/components/_layout.scss */
-body .plans .container .plans__card .plans__header .plans__card-tittle {
+/* line 368, ../scss/components/_layout.scss */
+body .plans .container .plans__card .plans__header .plans__card-title {
   width: 335px;
   height: 66px;
   background: #ff9b70;
@@ -2257,47 +2566,150 @@ body .plans .container .plans__card .plans__header .plans__card-tittle {
   align-items: flex-end;
   justify-content: center;
 }
-/* line 280, ../scss/components/_layout.scss */
+/* line 382, ../scss/components/_layout.scss */
 body .plans .container .plans__card .plans__header .plans__price {
   padding: 30px 34px 5px 34px;
   text-align: center;
 }
-/* line 284, ../scss/components/_layout.scss */
+/* line 386, ../scss/components/_layout.scss */
 body .plans .container .plans__card .plans__header .plans__price p {
   font-size: 3.2rem;
   font-weight: 800;
 }
-/* line 288, ../scss/components/_layout.scss */
+/* line 390, ../scss/components/_layout.scss */
 body .plans .container .plans__card .plans__header .plans__price p .hour {
   font-size: 1.5rem;
   font-weight: 400;
   color: #666666;
 }
-/* line 298, ../scss/components/_layout.scss */
+/* line 400, ../scss/components/_layout.scss */
 body .plans .container .plans__card .plans__content {
   padding: 0px 50px 24px 50px;
   font-size: 1.4rem;
 }
-/* line 304, ../scss/components/_layout.scss */
+/* line 406, ../scss/components/_layout.scss */
 body .plans .container .plans__card .plans__content .plans__features li:nth-child(-n+7) {
   border-bottom: 0.5px solid #cccccc;
 }
-/* line 307, ../scss/components/_layout.scss */
+/* line 409, ../scss/components/_layout.scss */
 body .plans .container .plans__card .plans__content .plans__features .plans__include {
   font-weight: 500;
   margin: 9px 0px;
 }
-/* line 311, ../scss/components/_layout.scss */
+/* line 413, ../scss/components/_layout.scss */
 body .plans .container .plans__card .plans__content .plans__features .plans__include .icon-check {
   color: #FF7315;
 }
-/* line 316, ../scss/components/_layout.scss */
+/* line 418, ../scss/components/_layout.scss */
 body .plans .container .plans__card .plans__content .plans__features .plans__not-include {
   margin: 9px 0px;
   color: #666666;
 }
+/* line 428, ../scss/components/_layout.scss */
+body .contact {
+  margin-bottom: 127px;
+}
+/* line 431, ../scss/components/_layout.scss */
+body .contact .card {
+  height: 354px;
+  padding: 37px 10px 66px 10px;
+  line-height: 62px;
+  border-radius: 15px;
+  background: #FF7315;
+  color: #ffffff;
+  justify-content: center;
+}
+/* line 442, ../scss/components/_layout.scss */
+body .contact .card .container p {
+  margin-bottom: 55px;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+/* line 448, ../scss/components/_layout.scss */
+body .contact .card .container .contact__link {
+  margin: 0px 40px;
+  text-align: center;
+  box-shadow: 0px 0.92742px 1.92354px rgba(0, 0, 0, 0.00974);
+}
+/* line 457, ../scss/components/_layout.scss */
+body .blog {
+  padding: 0rem 1rem;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+/* line 463, ../scss/components/_layout.scss */
+body .blog__list {
+  display: flex;
+  padding: 20px 0px;
+  overflow-x: scroll;
+  align-items: center;
+  justify-items: center;
+}
+/* line 471, ../scss/components/_layout.scss */
+body .blog__title-header {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+/* line 476, ../scss/components/_layout.scss */
+body .blog__see-more {
+  display: none;
+}
+/* line 483, ../scss/components/_layout.scss */
+body .blog__link {
+  color: #8e8e8e;
+  font-size: 2rem;
+}
+/* line 487, ../scss/components/_layout.scss */
+body .blog__link i {
+  display: none;
+}
+/* line 492, ../scss/components/_layout.scss */
+body .blog__card {
+  width: 270px;
+  height: 364px;
+  background: #F9F9F9;
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  justify-items: center;
+  margin-right: 24px;
+}
+/* line 504, ../scss/components/_layout.scss */
+body .blog__pic img {
+  width: 242px;
+  height: 167px;
+  max-width: 242px;
+  max-height: 167px;
+  border-radius: 15px;
+  margin: 15px;
+}
+/* line 514, ../scss/components/_layout.scss */
+body .blog__content {
+  padding: 0px  16px 0px 16px;
+}
+/* line 518, ../scss/components/_layout.scss */
+body .blog__title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+  text-align: center;
+  text-transform: capitalize;
+}
+/* line 526, ../scss/components/_layout.scss */
+body .blog__copy {
+  color: #666666;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+/* line 535, ../scss/components/_layout.scss */
+body .blog__button {
+  float: right;
+  margin-right: 16px;
+}
 
-/* line 334, ../scss/components/_layout.scss */
+/* line 545, ../scss/components/_layout.scss */
 .presentation__image {
   display: none;
 }

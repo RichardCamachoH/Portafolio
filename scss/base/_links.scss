@@ -64,50 +64,81 @@ a, button {
       }
    }
 
-   &.button-round {
-      padding: 14px 17px;
-      border-radius: 35px;
+   &.button-round-blue {
+      @include button( color( secondary, blue-1 ) );
+   }
+   &.button-round-magenta {
+      @include button( color( secondary, magenta-1 ) );
+   }
+   &.button-round-cyan {
+      @include button( color( secondary, cyan-1 ) );
+   }
+   &.button-round-orange {
+      @include button( color( secondary, orange-2 ) );
+   }
+   &.button-round-white {
+      @include button( color( grayscale, white), color( grayscale, gray-5 ) );
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.09);
+   }
 
-      &.button-round-blue {
-         @include button( color( secondary, blue-1 ) );
-      }
-      &.button-round-magenta {
-         @include button( color( secondary, magenta-1 ) );
-      }
-      &.button-round-cyan {
-         @include button( color( secondary, cyan-1 ) );
-      }
-      &.button-round-orange {
-         @include button( color( secondary, orange-2 ) );
+   &.button-primary-red {
+      @include button( color( primary, red-1 ) );
+      &.outline {
+         @include button( transparent, color( grayscale, gray-7 ) );
+         border: .13rem solid color( primary, red-1 );
+         &:hover, &:active {
+            @include button( color( primary, red-1 ) );
+         }
       }
    }
 
-   &.button-primary {
+   &.button-primary-orange {
+      @include button( color( primary, orange-2 ) );
+      &.outline {
+         @include button( transparent, color( grayscale, gray-7 ) );
+         border: .13rem solid color( primary, orange-2 );
+         &:hover, &:active {
+            @include button( color( grayscale, white ), color( grayscale, black ) );
+         }
+      }
+   }
+
+   &.button-primary-white {
+      @include button( color( grayscale, white), color( grayscale, black ) );
+      &.outline {
+         @include button( transparent, color( grayscale, gray-7 ) );
+         border: .13rem solid color( grayscale, white );
+         &:hover, &:active {
+            @include button( color( grayscale, white ), color( grayscale, black ) );
+         }
+      }
+   }
+
+   // &.small {
+
+   // }
+
+   &.round-small {
+      padding: 10px 15px;
+      border-radius: 35px;
+   }
+
+   &.medium {
       font-size: map-get($sizes, "base_2");
       font-weight: map-get($weights, "medium");
       padding: 15px 15px;
       border-radius: 10px;
+   }
 
-      &.button-primary-red {
-         @include button( color( primary, red-1 ) );
-         &.outline {
-            @include button( transparent, color( grayscale, gray-7 ) );
-            border: .13rem solid color( primary, red-1 );
-            &:hover, &:active {
-               @include button( color( primary, red-1 ) );
-            }
-         }
-      }
-   
-      &.button-primary-orange {
-         @include button( color( primary, orange-2 ) );
-         &.outline {
-            @include button( transparent, color( grayscale, gray-7 ) );
-            border: .13rem solid color( primary, orange-2 );
-            &:hover, &:active {
-               @include button( color( primary, orange-2 ) );
-            }
-         }
-      }
+   &.round-medium {
+      padding: 14px 17px;
+      border-radius: 35px;
+   }
+
+   &.large {
+      font-size: map-get($sizes, "half");
+      font-weight: map-get($weights, "semi_bold");
+      padding: 5px 15px;
+      border-radius: 15px;
    }
 }

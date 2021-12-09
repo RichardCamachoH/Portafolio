@@ -1,0 +1,28 @@
+.footer {
+
+    a {
+        color: color(grayscale, gray-6);
+    }
+
+    &__container {
+        align-items: center;
+        justify-items: center;
+        background: color(grayscale, gray-2);
+        height: 302px;
+    }
+
+    & .grid-12:nth-child(1){
+        font-size: map-get($sizes, "base_2");
+        order: 1;
+    }
+    & .grid-12:nth-child(2){
+        font-size: map-get($sizes, "base_2");
+        font-weight: map-get($weights, "medium");
+        order: 3;
+    }
+    & .grid-12:nth-child(3){
+        font-size: map-get($sizes, "thumb");
+        order: 2;
+    }
+
+}

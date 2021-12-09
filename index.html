@@ -75,30 +75,30 @@
                                 <p>Follow me: </p>
                             </li>
                             <li class="presentation__item grid-3">
-                                <a class="presentation__link button-round button-round-blue" href="https://facebook.com" aria-label="Link a mi perfil de Facebook">
+                                <a class="presentation__link button-round-blue round-medium" href="https://facebook.com" aria-label="Link a mi perfil de Facebook">
                                     <i class="icon-facebook" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li class="presentation__item grid-3">
-                                <a class="presentation__link button-round button-round-magenta" href="https://twitter.com" aria-label="Link a mi perfil de Twitter">
+                                <a class="presentation__link button-round-magenta round-medium" href="https://twitter.com" aria-label="Link a mi perfil de Twitter">
                                     <i class="icon-twitter" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li class="presentation__item grid-3">
-                                <a class="presentation__link button-round button-round-cyan" href="https://instagram.com" aria-label="Link a mi perfil de Instagram">
+                                <a class="presentation__link button-round-cyan round-medium" href="https://instagram.com" aria-label="Link a mi perfil de Instagram">
                                     <i class="icon-instagram" aria-hidden="true"></i>
                                 </a>
                             </li>
                             <li class="presentation__item grid-3">
-                                <a class="presentation__link button-round button-round-orange" href="https://telegram.com" aria-label="Link a mi perfil de Telegram">
+                                <a class="presentation__link button-round-orange round-medium" href="https://telegram.com" aria-label="Link a mi perfil de Telegram">
                                     <i class="icon-telegram" aria-hidden="true"></i>
                                 </a>
                             </li>
                         </ul>
                     </nav>
                     <div class="presentation__actions grid">
-                        <a class="button-primary button-primary-red grid-6" role="button" href="mailto:contact@correo.com" aria-label="Enviar Solicitud">Send Request</a>
-                        <a class="button-primary button-primary-orange outline grid-6" role="button" href="#" aria-label="DEscargar Hoja de Vida">Download CV</a>
+                        <a class="button-primary-red medium grid-6" role="button" href="mailto:contact@correo.com" aria-label="Enviar Solicitud">Send Request</a>
+                        <a class="button-primary-orange outline medium grid-6" role="button" href="#" aria-label="DEscargar Hoja de Vida">Download CV</a>
                     </div>
                 </div>
                 
@@ -206,7 +206,7 @@
         <!-- Portafolio -->
         <section class="portfolio" id="portfolio">
             <div class="container grid">
-                <h2 class="portfolio__tittle grid-12">Portfolio</h2>
+                <h2 class="portfolio__title grid-12">Portfolio</h2>
                 <div class="portfolio__see-more grid-12">
                     <a class="portfolio__link" href="#" aria-label="See more">See More <i class="icon-arrow_1"></i></a>
                 </div>
@@ -222,18 +222,31 @@
         </section>
         <!-- Clientes -->
         <section class="clients" id="clients">
-            <h2 class="clients__tittle">I’m Loved By Users And Clients Worldwide</h2>
-            <div class="clients__container">
-                <div class="clients__card">
-                    <div class="clients__opinion">
-                        <p>One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
-                    </div>
+            <h2 class="clients__title">I’m Loved By Users And Clients Worldwide</h2>
+            <div class="clients__container grid">
+                <div class="clients__card grid">
+
+                    <p class="clients__opinion">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
                     <img class="clients__pic" src="./images/user1.png" alt="user Ronald Richards">
-                    <div><p class="clients__name">Ronald Richards</p></div>
-                    <div><p class="clients__rol">UI/UX Designer</p></div>
-                    <div><p class="numbers__rate">4.5</p></div>
+                    <p class="clients__name">Ronald Richards</p>
+                    <p class="clients__rol">UI/UX Designer</p>
+                    <p class="clients__rate">4.5</p>
                     <div class="clients__star-rate"> 
                         <div class="clients__stars-outer">
+                            <div class="clients__stars-inner"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clients__card grid">
+
+                    <p class="clients__opinion">It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
+                    <img class="clients__pic" src="./images/user2.png" alt="user Ronald Richards">
+                    <p class="clients__name">Ronald Richards</p>
+                    <p class="clients__rol">UI/UX Designer</p>
+                    <p class="clients__rate">4.5</p>
+                    <div class="clients__star-rate"> 
+                        <div class="clients__stars-outer">
+                            <div class="clients__stars-inner"></div>
                         </div>
                     </div>
                 </div>
@@ -242,12 +255,12 @@
         <!-- Planes -->
         <section class="plans" id="plans">
             <div class="container grid">
-                <h2 class="plans__tittle grid-12">Price Plans</h2>
+                <h2 class="plans__title grid-12">Price Plans</h2>
                 <div class="plans__container grid-12">
                     <div class="plans__list">
                         <div class="plans__card">
                             <div class="plans__header">
-                                <div class="plans__card-tittle">
+                                <div class="plans__card-title">
                                     <p>Silver</p>
                                 </div>
                                 <div class="plans__price">
@@ -286,7 +299,7 @@
 
                         <div class="plans__card">
                             <div class="plans__header">
-                                <div class="plans__card-tittle">
+                                <div class="plans__card-title">
                                     <p>Gold</p>
                                 </div>
                                 <div class="plans__price">
@@ -325,7 +338,7 @@
 
                         <div class="plans__card">
                             <div class="plans__header">
-                                <div class="plans__card-tittle">
+                                <div class="plans__card-title">
                                     <p>Silver</p>
                                 </div>
                                 <div class="plans__price">
@@ -367,64 +380,64 @@
         </section>
         <!-- Contacto -->
         <section class="contact" id="contact">
-            <div class="container">
-                <div class="card">
-                    <p>Interested working with me?</p>
-                    <a class="contact__link" role="button" href="mailto:contact@correo.com" aria-label="Enviar Email">Email me</a>
+            <div class="card">
+                <div class="container grid">
+                    <p class="grid-12">Interested working with me?</p>
+                    <a class="contact__link grid-12 button-primary-white large" role="button" href="mailto:contact@correo.com" aria-label="Enviar Email">Email me</a>
                 </div>
             </div>
         </section>
         <!-- Blog -->
         <section class="blog" id="blog">
-            <div class="blog__header">
-                <h2 class="blog__title">Blog</h2>
-                <div class="blog__see-more">
-                    <a class="blog__link" href="#" aria-label="See more">See More <i class="fas fa-long-arrow-alt-right"></i></a>
+            <div class="container grid">
+                <h2 class="blog__title-header grid-12">Blog</h2>
+                <div class="blog__see-more grid-12">
+                    <a class="blog__link" href="#" aria-label="See more">See More <i class="icon-arrow_2"></i></a>
                 </div>
-            </div>
-            <div class="blog__list">
-                <div class="blog__card">
-                    <figure class="blog__pic">
-                        <img class="image-post" src="./images/blog1.png" alt="Web templates">
-                    </figure>
-                    <div class="blog__content">
-                        <p class="blog__tittle">First Blog</p>
-                        <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+                <div class="blog__list grid-12">
+                    <div class="blog__card">
+                        <figure class="blog__pic">
+                            <img class="image-post" src="./images/blog1.png" alt="Web templates">
+                        </figure>
+                        <div class="blog__content">
+                            <p class="blog__title">How to make web tempates</p>
+                            <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+                        </div>
+                        <a class="blog__button button-round-white round-small" role="button" href="#" aria-label="Ir a primer blog"><i class="icon-arrow_2"></i></a>
                     </div>
-                    <a class="blog__button" role="button" href="#" aria-label="Ir a primer blog"><i class="fas fa-long-arrow-alt-right"></i></a>
-                </div>
-
-                <div class="blog__card">
-                    <figure class="blog__pic">
-                        <img class="image-post" src="./images/blog2.png" alt="Web templates">
-                    </figure>
-                    <div class="blog__content">
-                        <p class="blog__tittle">Second Blog</p>
-                        <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+    
+                    <div class="blog__card">
+                        <figure class="blog__pic">
+                            <img class="image-post" src="./images/blog2.png" alt="Web templates">
+                        </figure>
+                        <div class="blog__content">
+                            <p class="blog__title">Second Blog</p>
+                            <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+                        </div>
+                        <a class="blog__button button-round-white round-small" role="button" href="#" aria-label="Ir a segundo blog"><i class="icon-arrow_2"></i></a>
                     </div>
-                    <a class="blog__button" role="button" href="#" aria-label="Ir a segundo blog"><i class="fas fa-long-arrow-alt-right"></i></a>
-                </div>
-
-                <div class="blog__card">
-                    <figure class="blog__pic">
-                        <img class="image-post" src="./images/blog3.png" alt="Web templates">
-                    </figure>
-                    <div class="blog__content">
-                        <p class="blog__tittle">Third Blog</p>
-                        <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+    
+                    <div class="blog__card">
+                        <figure class="blog__pic">
+                            <img class="image-post" src="./images/blog3.png" alt="Web templates">
+                        </figure>
+                        <div class="blog__content">
+                            <p class="blog__title">Third Blog</p>
+                            <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+                        </div>
+                        <a class="blog__button button-round-white round-small" role="button" href="#" aria-label="Ir a tercer blog"><i class="icon-arrow_2"></i></a>
                     </div>
-                    <a class="blog__button" role="button" href="#" aria-label="Ir a tercer blog"><i class="fas fa-long-arrow-alt-right"></i></a>
-                </div>
-
-                <div class="blog__card">
-                    <figure class="blog__pic">
-                        <img class="image-post" src="./images/blog1.png" alt="Web templates">
-                    </figure>
-                    <div class="blog__content">
-                        <p class="blog__tittle">Fourth Blog</p>
-                        <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+    
+                    <div class="blog__card">
+                        <figure class="blog__pic">
+                            <img class="image-post" src="./images/blog1.png" alt="Web templates">
+                        </figure>
+                        <div class="blog__content">
+                            <p class="blog__title">Fourth Blog</p>
+                            <p class="blog__copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna</p>
+                        </div>
+                        <a class="blog__button button-round-white round-small" role="button" href="#" aria-label="Ir a cuarto blog"><i class="icon-arrow_2"></i></a>
                     </div>
-                    <a class="blog__button" role="button" href="#" aria-label="Ir a cuarto blog"><i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
             </div>
         </section>
@@ -432,22 +445,22 @@
     
     <!-- Pie de página -->
     <footer class="footer" id="footer">
-        <div class="footer__container">
-            <div>
-                <span><i class="far fa-envelope"></i></span>
+        <div class="footer__container grid">
+            <div class="grid-12">
+                <span><i class="icon-envelope"></i></span>
                 <a class="footer__email" href="mailto:contact@correo.com" aria-label="email de contacto"> &nbsp; mmr315@gmail.com</a>
             </div>
-            <div>
+            <div class="grid-12">
                 <p class="footer__copyright">© Copyright 2021 | mmrz315</p>
             </div>
-            <div>
+            <div class="grid-12">
                 <span class="txt-18">
                     <a href="#" aria-label="Link a mi perfil de Instagram">
-                        <i class="fab fa-instagram"></i>
+                        <i class="icon-instagram"></i>
                     </a>
                     &nbsp; &nbsp;
                     <a href="#" aria-label="Link a mi perfil de Telegram">
-                        <i class="fab fa-telegram-plane"></i>
+                        <i class="icon-telegram"></i>
                     </a>
                 </span>
             </div>
