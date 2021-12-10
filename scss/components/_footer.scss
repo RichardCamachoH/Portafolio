@@ -6,9 +6,9 @@
 
     &__container {
         align-items: center;
-        justify-items: center;
         background: color(grayscale, gray-2);
         height: 302px;
+        justify-items: center;
     }
 
     & .grid-12:nth-child(1){
