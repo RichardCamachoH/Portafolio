@@ -64,7 +64,7 @@
         <!-- Presentación -->
         <section class="presentation"  id="presentation">
             <div class="container grid">
-                <div class="presentation__info grid-12">
+                <div class="presentation__info grid-12 grid-xl-6 grid-xxl-6">
                     <p>HI!</p>
                     <h1>I’m Mohamad Reza. Frontend developer.</h1>
                     <p>Frontend developer based in tehran, Iran.</p>
@@ -97,13 +97,13 @@
                         </ul>
                     </nav>
                     <div class="presentation__actions grid">
-                        <a class="button-primary-red medium grid-6" role="button" href="mailto:contact@correo.com" aria-label="Enviar Solicitud">Send Request</a>
-                        <a class="button-primary-orange outline medium grid-6" role="button" href="#" aria-label="DEscargar Hoja de Vida">Download CV</a>
+                        <a class="button-primary-red medium grid-6 grid-xxl-5" role="button" href="mailto:contact@correo.com" aria-label="Enviar Solicitud">Send Request</a>
+                        <a class="button-primary-orange outline medium grid-6 grid-xxl-5" role="button" href="#" aria-label="DEscargar Hoja de Vida">Download CV</a>
                     </div>
                 </div>
                 
-                <div class="presentation__pic">
-                    <img class="presentation__image" src="./images/photo.png" alt="face photo of Mohammad Reza">
+                <div class="presentation__pic grid-xl-6 grid-xxl-6">
+                    <img class="presentation__image" src="./images/photo.png" alt="face photo of Mohammad Reza" width="406px" height="406px">
                 </div>
             </div>
         </section>
@@ -111,16 +111,16 @@
         <section class="achievements" id="achievements">
             <div class="achievements__card">
                 <div class="container grid">
-                    <div class="achievements__figure grid-12">
+                    <div class="achievements__figure grid-12 grid-xxl-5">
                         <img class="achievements__image" src="./images/zoomed.png" alt="figure"  width="299" height="228">
                     </div>
-                    <div class="achievements__content grid-12">
+                    <div class="achievements__content grid-12 grid-xxl-7">
                         <div class="grid">
-                            <div class="achievements__numbers grid-12">
+                            <div class="achievements__numbers grid-12 grid-md-6">
                                 <h2>120+</h2>
                                 <p>Completed Projects</p>
                             </div>
-                            <div class="achievements__rate grid-12">
+                            <div class="achievements__rate grid-12 grid-md-6">
                                 <div class="achievements__stars">
                                     <div class="stars-outer">
                                         <div class="stars-inner"></div>
@@ -142,9 +142,9 @@
         <section class="skills" id="skills">
             <div class="container grid">
                 <h2 class="grid-12">Why Hire Me?</h2>
-                <div class="skills__list grid-12">
+                <div class="skills__list grid grid-12">
 
-                    <div class="skills__item">
+                    <div class="skills__item grid-12 grid-md-6 grid-lg-6 grid-xxl-3">
                         <figure class="skills__figure">
                             <img class="skills__image" src="./images/communication.png" alt="Communicative">
                         </figure>
@@ -152,7 +152,7 @@
                         <p class="skills__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p>
                     </div>
     
-                    <div class="skills__item">
+                    <div class="skills__item grid-12 grid-md-6 grid-lg-6 grid-xxl-3">
                         <figure class="skills__figure">
                             <img class="skills__image" src="./images/Professional.png" alt="Professional">
                         </figure>
@@ -160,7 +160,7 @@
                         <p class="skills__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p>
                     </div>
     
-                    <div class="skills__item">
+                    <div class="skills__item grid-12 grid-md-6 grid-lg-6 grid-xxl-3">
                         <figure class="skills__figure">
                             <img class="skills__image" src="./images/Collaborative.png" alt="Collaborative">
                         </figure>
@@ -168,7 +168,7 @@
                         <p class="skills__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p>
                     </div>
     
-                    <div class="skills__item">
+                    <div class="skills__item grid-12 grid-md-6 grid-lg-6 grid-xxl-3">
                         <figure class="skills__figure">
                             <img class="skills__image" src="./images/favorite.png" alt="Client’s Favourite">
                         </figure>
@@ -181,8 +181,8 @@
         <!-- Portafolio -->
         <section class="portfolio" id="portfolio">
             <div class="container grid">
-                <h2 class="portfolio__title grid-12">Portfolio</h2>
-                <div class="portfolio__see-more grid-12">
+                <h2 class="portfolio__title grid-12 grid-xxl-10">Portfolio</h2>
+                <div class="portfolio__see-more grid-12 grid-xxl-2">
                     <a class="portfolio__link" href="#" aria-label="See more">See More <i class="icon-arrow_1"></i></a>
                 </div>
                 <div class="portfolio__list grid-12">
@@ -198,9 +198,15 @@
         <!-- Clientes -->
         <section class="clients" id="clients">
             <h2 class="clients__title">I’m Loved By Users And Clients Worldwide</h2>
-            <div class="clients__container grid">
-                <div class="clients__card grid">
+            
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
 
+            <div class="clients__container grid">
+
+                <div class="clients__card first-card grid">
                     <p class="clients__opinion">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
                     <img class="clients__pic" src="./images/user1.png" alt="user Ronald Richards">
                     <p class="clients__name">Ronald Richards</p>
@@ -213,7 +219,6 @@
                     </div>
                 </div>
                 <div class="clients__card grid">
-
                     <p class="clients__opinion">It provides an amazing platform for constant conversations and direct feedback between managers and direct reports.</p>
                     <img class="clients__pic" src="./images/user2.png" alt="user Ronald Richards">
                     <p class="clients__name">Ronald Richards</p>
@@ -225,15 +230,71 @@
                         </div>
                     </div>
                 </div>
+                <div class="clients__card grid">
+                    <p class="clients__opinion">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+                    <img class="clients__pic" src="./images/user1.png" alt="user Ronald Richards">
+                    <p class="clients__name">Ronald Richards</p>
+                    <p class="clients__rol">UI/UX Designer</p>
+                    <p class="clients__rate">4.5</p>
+                    <div class="clients__star-rate"> 
+                        <div class="clients__stars-outer">
+                            <div class="clients__stars-inner"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clients__card grid">
+                    <p class="clients__opinion">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+                    <img class="clients__pic" src="./images/user1.png" alt="user Ronald Richards">
+                    <p class="clients__name">Ronald Richards</p>
+                    <p class="clients__rol">UI/UX Designer</p>
+                    <p class="clients__rate">4.5</p>
+                    <div class="clients__star-rate"> 
+                        <div class="clients__stars-outer">
+                            <div class="clients__stars-inner"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clients__card grid">
+                    <p class="clients__opinion">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+                    <img class="clients__pic" src="./images/user1.png" alt="user Ronald Richards">
+                    <p class="clients__name">Ronald Richards</p>
+                    <p class="clients__rol">UI/UX Designer</p>
+                    <p class="clients__rate">4.5</p>
+                    <div class="clients__star-rate"> 
+                        <div class="clients__stars-outer">
+                            <div class="clients__stars-inner"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clients__card grid">
+                    <p class="clients__opinion">One of the best additions to our feedback loop has been the company-wide adoption of Fellow.</p>
+                    <img class="clients__pic" src="./images/user1.png" alt="user Ronald Richards">
+                    <p class="clients__name">Ronald Richards</p>
+                    <p class="clients__rol">UI/UX Designer</p>
+                    <p class="clients__rate">4.5</p>
+                    <div class="clients__star-rate"> 
+                        <div class="clients__stars-outer">
+                            <div class="clients__stars-inner"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+            <div class="clients__navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
         </section>
         <!-- Planes -->
         <section class="plans" id="plans">
             <div class="container grid">
                 <h2 class="plans__title grid-12">Price Plans</h2>
                 <div class="plans__container grid-12">
-                    <div class="plans__list">
-                        <div class="plans__card">
+                    <div class="plans__list grid">
+                        <div class="plans__card grid-12 grid-xxl-4">
                             <div class="plans__header">
                                 <div class="plans__card-title">
                                     <p>Silver</p>
@@ -272,7 +333,7 @@
                             </div>
                         </div>
 
-                        <div class="plans__card">
+                        <div class="plans__card grid-12 grid-xxl-4">
                             <div class="plans__header">
                                 <div class="plans__card-title">
                                     <p>Gold</p>
@@ -311,7 +372,7 @@
                             </div>
                         </div>
 
-                        <div class="plans__card">
+                        <div class="plans__card grid-12 grid-xxl-4">
                             <div class="plans__header">
                                 <div class="plans__card-title">
                                     <p>Silver</p>
@@ -357,16 +418,16 @@
         <section class="contact" id="contact">
             <div class="card">
                 <div class="container grid">
-                    <p class="grid-12">Interested working with me?</p>
-                    <a class="contact__link grid-12 button-primary-white large" role="button" href="mailto:contact@correo.com" aria-label="Enviar Email">Email me</a>
+                    <p class="grid-12 grid-xl-8 grid-xxl-8">Interested working with me?</p>
+                    <a class="contact__link grid-12 grid-xl-4 grid-xxl-4 button-primary-white large" role="button" href="mailto:contact@correo.com" aria-label="Enviar Email">Email me</a>
                 </div>
             </div>
         </section>
         <!-- Blog -->
         <section class="blog" id="blog">
             <div class="container grid">
-                <h2 class="blog__title-header grid-12">Blog</h2>
-                <div class="blog__see-more grid-12">
+                <h2 class="blog__title-header grid-12 grid-xxl-10">Blog</h2>
+                <div class="blog__see-more grid-12 grid-xxl-2">
                     <a class="blog__link" href="#" aria-label="See more">See More <i class="icon-arrow_2"></i></a>
                 </div>
                 <div class="blog__list grid-12">
@@ -421,14 +482,14 @@
     <!-- Pie de página -->
     <footer class="footer" id="footer">
         <div class="footer__container grid">
-            <div class="grid-12">
+            <div class="grid-12 grid-xxl-4">
                 <span><i class="icon-envelope"></i></span>
                 <a class="footer__email" href="mailto:contact@correo.com" aria-label="email de contacto"> &nbsp; mmr315@gmail.com</a>
             </div>
-            <div class="grid-12">
+            <div class="grid-12 grid-xxl-4">
                 <p class="footer__copyright">© Copyright 2021 | mmrz315</p>
             </div>
-            <div class="grid-12">
+            <div class="grid-12 grid-xxl-4">
                 <span class="txt-18">
                     <a href="#" aria-label="Link a mi perfil de Instagram">
                         <i class="icon-instagram"></i>

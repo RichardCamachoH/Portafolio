@@ -37,11 +37,8 @@
     }
 
     &__item {
-        margin-bottom: 4rem;
-    }
-
-    &__list {
         font-size: map-get($sizes, "half");
+        margin-bottom: 4rem;
     }
 
     &__link {
@@ -106,7 +103,81 @@
 }
 
 @include  mq-min(lg){
+
+    .header {
+        border-radius: 0px 15px 15px 0px;
+        height: 100%;
+        width: 84px;
+
+        &__navigate {
+            flex-direction: column;
+        }
+
+        &__logo {
+            font-size: map-get($sizes, "base_2");
+            margin-top: 20px;
+            margin-bottom: 8rem;
+        }
+
+        &__toggle {
+            display: none;
+        }
+
+        &__list {
+            background: none;
+            padding: unset;
+            position: unset;
+            width: auto;
+        }
+
+        &__item {
+            align-items: center;
+            border-radius: 30px;
+            background: color(grayscale, white);
+            display: flex;
+            height: 50px;
+            justify-content: center;
+            width: 50px;
+
+            transition: background ease-in .3s;
+
+            &:hover {
+                background: color(primary, red-1);
+            }
+        }
+
+        &__link {
+            color: color(grayscale, gray-5);
+            [class^="icon-"], [class*=" icon-"] {
+                margin-right: unset;
+            }
+
+            &:hover {
+                color: color(grayscale, white);
+            }
+        }
+
+        &__link-name {
+            display: none;
+        }
+    }
+
+    .menu-hidden {
+        left: 0px;
+    }
 }
 
 @include  mq-min(xl){
+
+    .header {
+
+        &__item {
+            height: 40px;
+            width: 40px;
+        }
+
+        &__link {
+            font-size: map-get($sizes, "base_2");
+        }
+    }
 }

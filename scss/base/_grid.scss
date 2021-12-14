@@ -62,3 +62,11 @@
       }
    }
 }
+
+@include mq-min(xxl) {
+   @for $i from 1 through 12 {
+      .grid-xxl-#{$i} {
+         grid-column: span ($i);
+      }
+   }
+}

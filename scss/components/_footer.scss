@@ -26,3 +26,22 @@
     }
 
 }
+
+@include  mq-min(xl){ 
+
+    .footer {
+        &__container {
+            height: 170px;
+        }
+
+        & .grid-12:nth-child(1){
+            order: 1;
+        }
+        & .grid-12:nth-child(2){
+            order: 2;
+        }
+        & .grid-12:nth-child(3){
+            order: 3;
+        }
+    }
+}

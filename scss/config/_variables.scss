@@ -82,10 +82,12 @@ $sizes: (
    half      : 2.4rem,     // 24px
    medium    : 3.2rem,     // 32px
    medium_2  : 3.6rem,     // 36px
+   medium_3  : 4rem,       // 40px
    slarge    : 4.38rem,    // 43px
    large     : 4.8rem,     // 48px
    xlarge    : 5.6rem,     // 56px
-   huge      : 6.4rem      // 64px
+   huge      : 6.4rem,     // 64px
+   xhuge     : 7.2rem      // 72px
 );
 
 // ==========================================================================
@@ -96,7 +98,8 @@ $breakpoints: (
    sm  : 540px,
    md  : 720px,
    lg  : 960px,
-   xl  : 1140px,
+   xl  : 1210px,
+   xxl : 1440px
 );
 
 // ==========================================================================
