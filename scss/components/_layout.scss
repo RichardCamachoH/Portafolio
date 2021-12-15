@@ -235,9 +235,9 @@ section[id] {
     }
 
     &__item {
-        height: 157px;
+        // height: 157px;
         margin-bottom: 12px;
-        width: 161px;
+        // width: 161px;
     }
 }
 
@@ -528,24 +528,24 @@ section[id] {
     }
 
     &__card {
-        width: 270px;
-        height: 364px;
         background: #F9F9F9;
         box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
         border-radius: 15px;
+        height: 364px;
         justify-items: center;
         margin-right: 24px;
+        width: 270px;
     }
 
     &__pic {
         
         img {
-            width: 242px;
-            height: 167px;
-            max-width: 242px;
-            max-height: 167px;
+            // width: 242px;
+            // height: 167px;
             border-radius: 15px;
             margin: 15px;
+            max-width: 242px;
+            max-height: 167px;
         }
     }
 
@@ -644,8 +644,8 @@ section[id] {
         }
 
         &__image {
-            width: 430px; 
             height: 329px;
+            width: 430px; 
         }
 
         &__invitation {
@@ -773,10 +773,10 @@ section[id] {
     .portfolio {
 
         &__item {
-            width: 310px;
+            cursor: pointer;
             height: 300px;
             margin-bottom: 2.4rem;
-            cursor: pointer;
+            width: 310px;
         }
     }
 
